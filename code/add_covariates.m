@@ -35,9 +35,9 @@ function matlabbatch = add_covariates(matlabbatch, nodes, node_idx, validation_o
                         matlabbatch{1}.spm.stats.factorial_design.cov(i).iCC = fct_lib.convert_iCC(nodes{node_idx}.Transformations.Instructions{factorial_design_idx}.Input.Covariates{i}.Centering);
                     end
                 elseif design_type == 4 % 'MultipleRegression'
-                    matlabbatch{1}.spm.stats.factorial_design.cov(i).c = [validation_output_lv2.data(con_idx).covariates_array{:,i}]';
                     n_covariates_main = length(nodes{node_idx}.Transformations.Instructions{factorial_design_idx}.Input.Covariates);
                     if i <= n_covariates_main
+                        matlabbatch{1}.spm.stats.factorial_design.cov(i).c = [validation_output_lv2.data(con_idx).covariates_array{:,i}]';
                         matlabbatch{1}.spm.stats.factorial_design.cov(i).cname = nodes{node_idx}.Transformations.Instructions{factorial_design_idx}.Input.Covariates{i}.Name;
                         matlabbatch{1}.spm.stats.factorial_design.cov(i).iCFI = fct_lib.convert_iCFI(nodes{node_idx}.Transformations.Instructions{factorial_design_idx}.Input.Covariates{i}.Interactions);
                         matlabbatch{1}.spm.stats.factorial_design.cov(i).iCC = fct_lib.convert_iCC(nodes{node_idx}.Transformations.Instructions{factorial_design_idx}.Input.Covariates{i}.Centering);
