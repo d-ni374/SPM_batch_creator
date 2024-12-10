@@ -1,0 +1,510 @@
+Validation OK.
+
+Validating data for participant "sub-MSC03"
+
+SPM12: spm_fMRI_design (v7210)                     08:59:08 - 05/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              08:59:08 - 05/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          08:59:10 - 05/12/2024
+
+Validating data for participant "sub-MSC04"
+
+SPM12: spm_fMRI_design (v7210)                     08:59:11 - 05/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              08:59:11 - 05/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          08:59:12 - 05/12/2024
+
+Validating data for participant "sub-MSC05"
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 112)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+
+SPM12: spm_fMRI_design (v7210)                     08:59:13 - 05/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              08:59:13 - 05/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          08:59:15 - 05/12/2024
+Validating Edge 1
+
+Creating batch for participant "sub-MSC03"
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+05-Dec-2024 08:59:20 - Running job #1
+------------------------------------------------------------------------
+05-Dec-2024 08:59:21 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     08:59:21 - 05/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     08:59:21 - 05/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          08:59:25 - 05/12/2024
+05-Dec-2024 08:59:25 - Done    'fMRI model specification'
+05-Dec-2024 08:59:25 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             08:59:25 - 05/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              08:59:25 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Temporal non-sphericity (23756 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...2.330282e+00 [+4.25]
+  ReML Iteration 2                      :        ...2.420213e-01 [+4.50]
+  ReML Iteration 3                      :        ...3.602963e-02 [+4.75]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...3.437511e+00 [+4.25]
+  ReML Iteration 2                      :        ...5.566800e-02 [+4.50]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...7.147939e-01 [+4.25]
+  ReML Iteration 2                      :        ...4.082333e-03 [+4.50]
+  ReML Block 4                
+  ReML Iteration 1                      :        ...6.499012e+00 [+4.25]
+  ReML Iteration 2                      :        ...1.616739e-02 [+4.50]
+
+SPM12: spm_spm (v7120)                             08:59:27 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          08:59:34 - 05/12/2024
+Done
+05-Dec-2024 08:59:34 - Done    'Model estimation'
+05-Dec-2024 08:59:34 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             08:59:34 - 05/12/2024
+========================================================================
+Contrasts folder                        :  .\stats\sub-MSC03\memorywords
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC03\memorywords','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC03\memorywords','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC03\memorywords','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC03\memorywords','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC03\memorywords','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	ESS image  6                    :                   ...computing       ...written ess_0006.nii
+	spm{F} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC03\memorywords','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmF_0006.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          08:59:35 - 05/12/2024
+05-Dec-2024 08:59:35 - Done    'Contrast Manager'
+05-Dec-2024 08:59:35 - Done
+
+
+Creating batch for participant "sub-MSC04"
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+05-Dec-2024 08:59:40 - Running job #1
+------------------------------------------------------------------------
+05-Dec-2024 08:59:40 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     08:59:40 - 05/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     08:59:40 - 05/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          08:59:44 - 05/12/2024
+05-Dec-2024 08:59:44 - Done    'fMRI model specification'
+05-Dec-2024 08:59:44 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             08:59:44 - 05/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              08:59:45 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Temporal non-sphericity (25254 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...3.446572e+00 [+4.25]
+  ReML Iteration 2                      :        ...3.172244e-02 [+4.50]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.582398e+00 [+4.25]
+  ReML Iteration 2                      :        ...1.521717e-02 [+4.50]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...5.617881e-01 [+4.25]
+  ReML Iteration 2                      :        ...3.299489e-03 [+4.50]
+  ReML Block 4                
+  ReML Iteration 1                      :        ...3.422690e+00 [+4.25]
+  ReML Iteration 2                      :        ...1.905693e-02 [+4.50]
+
+SPM12: spm_spm (v7120)                             08:59:47 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          08:59:54 - 05/12/2024
+Done
+05-Dec-2024 08:59:54 - Done    'Model estimation'
+05-Dec-2024 08:59:54 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             08:59:54 - 05/12/2024
+========================================================================
+Contrasts folder                        :  .\stats\sub-MSC04\memorywords
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC04\memorywords','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC04\memorywords','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC04\memorywords','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC04\memorywords','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC04\memorywords','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	ESS image  6                    :                   ...computing       ...written ess_0006.nii
+	spm{F} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC04\memorywords','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmF_0006.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          08:59:55 - 05/12/2024
+05-Dec-2024 08:59:55 - Done    'Contrast Manager'
+05-Dec-2024 08:59:55 - Done
+
+
+Creating batch for participant "sub-MSC05"
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func01\func\sub-MSC05_ses-func01_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 1 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func02\func\sub-MSC05_ses-func02_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+[Warning: Excluding 2 incomplete row(s) in the file F:\ds000224_2\sub-MSC05\ses-func04\func\sub-MSC05_ses-func04_task-memorywords_events.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_events_file', 'C:\Users\Daniel\Documents\MATLAB\read_events_file.m', 66)" style="font-weight:bold">read_events_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_events_file.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_conditions_regressors', 'C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m', 99)" style="font-weight:bold">get_conditions_regressors</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_conditions_regressors.m',99,0)">line 99</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_model', 'C:\Users\Daniel\Documents\MATLAB\define_model.m', 67)" style="font-weight:bold">define_model</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_model.m',67,0)">line 67</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 101)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',101,0)">line 101</a>)] 
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+05-Dec-2024 09:00:00 - Running job #1
+------------------------------------------------------------------------
+05-Dec-2024 09:00:00 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     09:00:00 - 05/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     09:00:00 - 05/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          09:00:04 - 05/12/2024
+05-Dec-2024 09:00:04 - Done    'fMRI model specification'
+05-Dec-2024 09:00:04 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             09:00:04 - 05/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              09:00:05 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Temporal non-sphericity (26474 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...2.927777e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.079167e+05 [+3.25]
+  ReML Iteration 3                      :        ...2.715677e+06 [+2.25]
+  ReML Iteration 4                      :        ...3.313674e+08 [+1.25]
+  ReML Iteration 5                      :        ...1.350946e+08 [+1.50]
+  ReML Iteration 6                      :        ...1.272766e+05 [+1.75]
+  ReML Iteration 7                      :        ...1.506001e+01 [+2.00]
+  ReML Iteration 8                      :        ...1.373637e-04 [+2.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...2.988871e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.530256e+04 [+3.25]
+  ReML Iteration 3                      :        ...3.046910e+05 [+2.25]
+  ReML Iteration 4                      :        ...6.148708e+07 [+1.25]
+  ReML Iteration 5                      :        ...1.441982e+07 [+1.50]
+  ReML Iteration 6                      :        ...1.093056e+04 [+1.75]
+  ReML Iteration 7                      :        ...1.380694e+00 [+2.00]
+  ReML Iteration 8                      :        ...6.779187e-06 [+2.25]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...3.535225e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.387012e+03 [+3.25]
+  ReML Iteration 3                      :        ...4.923213e+04 [+2.25]
+  ReML Iteration 4                      :        ...1.690204e+09 [+1.25]
+  ReML Iteration 5                      :        ...3.362938e+08 [+1.50]
+  ReML Iteration 6                      :        ...1.105005e+07 [+1.75]
+  ReML Iteration 7                      :        ...1.302195e+03 [+2.00]
+  ReML Iteration 8                      :        ...7.818031e-03 [+2.25]
+  ReML Block 4                
+  ReML Iteration 1                      :        ...5.200049e+02 [+4.25]
+  ReML Iteration 2                      :        ...5.131473e+03 [+3.25]
+  ReML Iteration 3                      :        ...1.834970e+05 [+2.25]
+  ReML Iteration 4                      :        ...1.202468e+07 [+1.25]
+  ReML Iteration 5                      :        ...3.422652e+07 [+0.25]
+  ReML Iteration 6                      :        ...8.345083e+05 [+0.50]
+  ReML Iteration 7                      :        ...7.122899e+04 [+0.75]
+  ReML Iteration 8                      :        ...2.847438e+03 [+1.00]
+  ReML Iteration 9                      :        ...4.322797e+01 [+1.25]
+  ReML Iteration 10                     :        ...1.905286e-01 [+1.50]
+  ReML Iteration 11                     :        ...1.675607e-04 [+1.75]
+
+SPM12: spm_spm (v7120)                             09:00:07 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          09:00:14 - 05/12/2024
+Done
+05-Dec-2024 09:00:14 - Done    'Model estimation'
+05-Dec-2024 09:00:14 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             09:00:14 - 05/12/2024
+========================================================================
+Contrasts folder                        :  .\stats\sub-MSC05\memorywords
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC05\memorywords','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC05\memorywords','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC05\memorywords','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC05\memorywords','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC05\memorywords','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	ESS image  6                    :                   ...computing       ...written ess_0006.nii
+	spm{F} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\sub-MSC05\memorywords','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmF_0006.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          09:00:15 - 05/12/2024
+05-Dec-2024 09:00:15 - Done    'Contrast Manager'
+05-Dec-2024 09:00:15 - Done
+

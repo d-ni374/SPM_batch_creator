@@ -1,0 +1,225 @@
+Validation OK.
+Skipping extended validation for node 1
+Design type: 4
+[Warning: Covariate "education_degree" is not numeric in the file F:\ds000224_2\participants.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_participants_file', 'C:\Users\Daniel\Documents\MATLAB\read_participants_file.m', 87)" style="font-weight:bold">read_participants_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_participants_file.m',87,0)">line 87</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_covariates', 'C:\Users\Daniel\Documents\MATLAB\get_covariates.m', 45)" style="font-weight:bold">get_covariates</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_covariates.m',45,0)">line 45</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_paths_lv2', 'C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m', 271)" style="font-weight:bold">get_paths_lv2</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m',271,0)">line 271</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 156)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',156,0)">line 156</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+Category "Bachelors" is encoded as 1
+Category "Doctorate" is encoded as 2
+Category "Masters" is encoded as 3
+Category "Professional" is encoded as 4
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          10:46:07 - 05/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          10:46:07 - 05/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          10:46:07 - 05/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          10:46:07 - 05/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          10:46:07 - 05/12/2024
+Validating Edge 1
+
+Creating batch for contrast "abstract vs concrete1".
+
+
+------------------------------------------------------------------------
+05-Dec-2024 10:46:13 - Running job #1
+------------------------------------------------------------------------
+05-Dec-2024 10:46:13 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          10:46:13 - 05/12/2024
+05-Dec-2024 10:46:13 - Done    'Factorial design specification'
+05-Dec-2024 10:46:13 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             10:46:13 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          10:46:17 - 05/12/2024
+Done
+05-Dec-2024 10:46:17 - Done    'Model estimation'
+05-Dec-2024 10:46:17 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             10:46:17 - 05/12/2024
+========================================================================
+Contrasts folder                        :        .\abstract_vs_concrete1
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete1','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete1','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          10:46:17 - 05/12/2024
+05-Dec-2024 10:46:17 - Done    'Contrast Manager'
+05-Dec-2024 10:46:17 - Done
+
+
+Creating batch for contrast "abstract vs concrete2".
+
+
+------------------------------------------------------------------------
+05-Dec-2024 10:46:21 - Running job #1
+------------------------------------------------------------------------
+05-Dec-2024 10:46:21 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          10:46:21 - 05/12/2024
+05-Dec-2024 10:46:21 - Done    'Factorial design specification'
+05-Dec-2024 10:46:21 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             10:46:22 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          10:46:24 - 05/12/2024
+Done
+05-Dec-2024 10:46:24 - Done    'Model estimation'
+05-Dec-2024 10:46:24 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             10:46:24 - 05/12/2024
+========================================================================
+Contrasts folder                        :        .\abstract_vs_concrete2
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete2','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete2','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          10:46:24 - 05/12/2024
+05-Dec-2024 10:46:24 - Done    'Contrast Manager'
+05-Dec-2024 10:46:24 - Done
+
+
+Creating batch for contrast "abstract vs concrete3".
+
+
+------------------------------------------------------------------------
+05-Dec-2024 10:46:28 - Running job #1
+------------------------------------------------------------------------
+05-Dec-2024 10:46:28 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          10:46:28 - 05/12/2024
+05-Dec-2024 10:46:28 - Done    'Factorial design specification'
+05-Dec-2024 10:46:28 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             10:46:28 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          10:46:30 - 05/12/2024
+Done
+05-Dec-2024 10:46:30 - Done    'Model estimation'
+05-Dec-2024 10:46:30 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             10:46:30 - 05/12/2024
+========================================================================
+Contrasts folder                        :        .\abstract_vs_concrete3
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete3','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete3','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          10:46:30 - 05/12/2024
+05-Dec-2024 10:46:30 - Done    'Contrast Manager'
+05-Dec-2024 10:46:30 - Done
+
+
+Creating batch for contrast "abstract vs concrete".
+
+
+------------------------------------------------------------------------
+05-Dec-2024 10:46:35 - Running job #1
+------------------------------------------------------------------------
+05-Dec-2024 10:46:35 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          10:46:36 - 05/12/2024
+05-Dec-2024 10:46:36 - Done    'Factorial design specification'
+05-Dec-2024 10:46:36 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             10:46:36 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          10:46:38 - 05/12/2024
+Done
+05-Dec-2024 10:46:38 - Done    'Model estimation'
+05-Dec-2024 10:46:38 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             10:46:38 - 05/12/2024
+========================================================================
+Contrasts folder                        :         .\abstract_vs_concrete
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          10:46:38 - 05/12/2024
+05-Dec-2024 10:46:38 - Done    'Contrast Manager'
+05-Dec-2024 10:46:38 - Done
+
+
+Creating batch for contrast "abstract vs concrete4".
+
+
+------------------------------------------------------------------------
+05-Dec-2024 10:46:42 - Running job #1
+------------------------------------------------------------------------
+05-Dec-2024 10:46:42 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          10:46:42 - 05/12/2024
+05-Dec-2024 10:46:42 - Done    'Factorial design specification'
+05-Dec-2024 10:46:42 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             10:46:42 - 05/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          10:46:44 - 05/12/2024
+Done
+05-Dec-2024 10:46:44 - Done    'Model estimation'
+05-Dec-2024 10:46:44 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             10:46:44 - 05/12/2024
+========================================================================
+Contrasts folder                        :        .\abstract_vs_concrete4
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete4','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\ds000224_2\derivatives\stats\group_stats\multireg\abstract_vs_concrete4','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          10:46:44 - 05/12/2024
+05-Dec-2024 10:46:44 - Done    'Contrast Manager'
+05-Dec-2024 10:46:44 - Done
+
