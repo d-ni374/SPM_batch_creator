@@ -1,0 +1,122 @@
+{
+    "BIDSModelVersion": "1.0.0-rc1",
+    "Name": "",
+    "Description": "empty template containing some default values",
+    "Input": {
+        "task": ""
+    },
+    "Nodes": [
+        {
+            "Level": "subject",
+            "Name": "",
+            "GroupBy": [],
+            "Transformations": {
+                "Transformer": "spm12-spec-v1",
+                "Instructions": [
+                    {
+                        "Name": "fmri_model_specification",
+                        "Input": {
+                            "BIDSflag": 1,
+                            "InputDirectory": "",
+                            "InputFilterRegexp": "^s8w.*(nii|img)$",
+                            "ImageType": "4d",
+                            "Participant_ID": [""],
+                            "OutputDirectory": "",
+                            "TimingParameters": {
+                                "UnitsForDesign": "secs",
+                                "InterscanInterval": 0,
+                                "MicrotimeResolution": 16,
+                                "MicrotimeOnset": 8
+                            },
+                            "Sessions": [
+                                {
+                                    "Session_id": "",
+                                    "Run_ids": [""],
+                                    "EventsRegexp": "",
+                                    "Conditions": [
+                                        {
+                                            "TrialType": "",
+                                            "TimeModulation": 0,
+                                            "ParametricModulations": [{"Name": "", "ColName": "", "Poly": 1}],
+                                            "OrthogonaliseModulations": 0
+                                        }
+                                    ],
+                                    "ConditionsRegexp": "",
+                                    "RegressorsRegexp": "",
+                                    "HighPassFilterSecs": 128
+                                }
+                            ],
+                            "FactorialDesign": [{"Name": "", "Levels": 0}],
+                            "BasisFunctions": {
+                                "Type": "Canonical HRF",
+                                "OptionsCanonicalHRF": {
+                                    "ModelTimeDerivatives": 0,
+                                    "ModelDispersionDerivatives": 0
+                                },
+                                "OptionsOtherBasisFunctions": {
+                                    "WindowLengthSecs": 0,
+                                    "NumberBasisFunctions": 0
+                                }
+                            },
+                            "ModelInteractionsVolterra": 0,
+                            "GlobalNormalisation": 0,
+                            "MaskingThreshold": 0,
+                            "ExplicitMask": "",
+                            "SerialCorrelations": "AR(1)"
+                        },
+                        "Script": "SPM_batch_creator(1)",
+                        "Output": "SPM.mat"
+                    }
+                ]
+            },
+            "Model": {
+                "Type": "glm",
+                "X": [
+                    ""
+                ],
+                "HRF": {
+                    "Model": "spm",
+                    "Variables": [
+                        ""
+                    ]
+                },
+                "Software": [
+                    {
+                        "SPM": {
+                            "WriteResiduals": 0,
+                            "Method": {
+                                "Type": "Classical",
+                                "OptionsBayesian1": {
+                                    "Comment": "not implemented yet; can be added if needed"
+                                }
+                            },
+                            "DeleteExistingContrasts": 1,
+                            "ReplicateOverSessions": "none"
+                        }
+                    }
+                ]
+            },
+            "Contrasts": [
+                {
+                    "Name": "",
+                    "ConditionList": ["", ""],
+                    "Weights": [],
+                    "Test": "t"
+                }
+            ],
+            "DummyContrasts": {
+                "Test": "t",
+                "Contrasts": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "Edges": [
+        {
+            "Source": "",
+            "Destination": "",
+            "Filter": {}
+        }
+    ]
+}
