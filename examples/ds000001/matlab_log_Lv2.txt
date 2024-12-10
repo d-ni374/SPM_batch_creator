@@ -1,0 +1,247 @@
+Validation OK.
+Skipping extended validation for node 1
+Design type: 1
+[Warning: The contrast name cash vs explode does not exist for F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask. The subject will
+be excluded for this contrast.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_contrast_file_paths', 'C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m', 66)" style="font-weight:bold">get_contrast_file_paths</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_paths_lv2', 'C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m', 58)" style="font-weight:bold">get_paths_lv2</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m',58,0)">line 58</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 156)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',156,0)">line 156</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: The contrast name pumps vs cash does not exist for F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask. The subject will be
+excluded for this contrast.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_contrast_file_paths', 'C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m', 66)" style="font-weight:bold">get_contrast_file_paths</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_paths_lv2', 'C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m', 58)" style="font-weight:bold">get_paths_lv2</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m',58,0)">line 58</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 156)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',156,0)">line 156</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: The contrast name cash vs explode does not exist for F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask. The subject will
+be excluded for this contrast.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_contrast_file_paths', 'C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m', 66)" style="font-weight:bold">get_contrast_file_paths</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_paths_lv2', 'C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m', 58)" style="font-weight:bold">get_paths_lv2</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m',58,0)">line 58</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 156)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',156,0)">line 156</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: The contrast name pumps vs explode does not exist for F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask. The subject will
+be excluded for this contrast.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_contrast_file_paths', 'C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m', 66)" style="font-weight:bold">get_contrast_file_paths</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m',66,0)">line 66</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_paths_lv2', 'C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m', 58)" style="font-weight:bold">get_paths_lv2</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m',58,0)">line 58</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 156)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',156,0)">line 156</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: No beta files found for F:\testset_ds000001\derivatives\stats2\sub-09\balloonanalogrisktask. The subject will be excluded.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_contrast_file_paths', 'C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m', 52)" style="font-weight:bold">get_contrast_file_paths</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_contrast_file_paths.m',52,0)">line 52</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_paths_lv2', 'C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m', 58)" style="font-weight:bold">get_paths_lv2</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m',58,0)">line 58</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 156)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',156,0)">line 156</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+[Warning: Covariate "sex" is not numeric in the file F:\testset_ds000001\participants.tsv.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('read_participants_file', 'C:\Users\Daniel\Documents\MATLAB\read_participants_file.m', 87)" style="font-weight:bold">read_participants_file</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\read_participants_file.m',87,0)">line 87</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_covariates', 'C:\Users\Daniel\Documents\MATLAB\get_covariates.m', 28)" style="font-weight:bold">get_covariates</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_covariates.m',28,0)">line 28</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_paths_lv2', 'C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m', 69)" style="font-weight:bold">get_paths_lv2</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\get_paths_lv2.m',69,0)">line 69</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 156)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',156,0)">line 156</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+Category "F" is encoded as 1
+Category "M" is encoded as 2
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:35:24 - 03/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:35:25 - 03/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:35:25 - 03/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:35:25 - 03/12/2024
+Validating Edge 1
+
+Creating batch for contrast "cash vs explode".
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:35:28 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:35:28 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          14:35:29 - 03/12/2024
+03-Dec-2024 14:35:29 - Done    'Factorial design specification'
+03-Dec-2024 14:35:29 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:35:29 - 03/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:35:30 - 03/12/2024
+Done
+03-Dec-2024 14:35:30 - Done    'Model estimation'
+03-Dec-2024 14:35:30 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:35:30 - 03/12/2024
+========================================================================
+Contrasts folder                        :     .\default0\cash_vs_explode
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\cash_vs_explode','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\cash_vs_explode','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\cash_vs_explode','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\cash_vs_explode','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\cash_vs_explode','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\cash_vs_explode','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:35:31 - 03/12/2024
+03-Dec-2024 14:35:31 - Done    'Contrast Manager'
+03-Dec-2024 14:35:31 - Done
+
+
+Creating batch for contrast "pumps vs cash".
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:35:34 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:35:34 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          14:35:35 - 03/12/2024
+03-Dec-2024 14:35:35 - Done    'Factorial design specification'
+03-Dec-2024 14:35:35 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:35:35 - 03/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:35:37 - 03/12/2024
+Done
+03-Dec-2024 14:35:37 - Done    'Model estimation'
+03-Dec-2024 14:35:37 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:35:37 - 03/12/2024
+========================================================================
+Contrasts folder                        :       .\default0\pumps_vs_cash
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_cash','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_cash','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_cash','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_cash','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_cash','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_cash','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:35:37 - 03/12/2024
+03-Dec-2024 14:35:37 - Done    'Contrast Manager'
+03-Dec-2024 14:35:37 - Done
+
+
+Creating batch for contrast "pumps vs explode".
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:35:41 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:35:41 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          14:35:41 - 03/12/2024
+03-Dec-2024 14:35:41 - Done    'Factorial design specification'
+03-Dec-2024 14:35:41 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:35:41 - 03/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:35:43 - 03/12/2024
+Done
+03-Dec-2024 14:35:43 - Done    'Model estimation'
+03-Dec-2024 14:35:43 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:35:43 - 03/12/2024
+========================================================================
+Contrasts folder                        :    .\default0\pumps_vs_explode
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_explode','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_explode','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_explode','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_explode','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_explode','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_explode','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:35:44 - 03/12/2024
+03-Dec-2024 14:35:44 - Done    'Contrast Manager'
+03-Dec-2024 14:35:44 - Done
+
+
+Creating batch for contrast "pumps vs control_pumps".
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:35:47 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:35:47 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          14:35:48 - 03/12/2024
+03-Dec-2024 14:35:48 - Done    'Factorial design specification'
+03-Dec-2024 14:35:48 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:35:48 - 03/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:35:50 - 03/12/2024
+Done
+03-Dec-2024 14:35:50 - Done    'Model estimation'
+03-Dec-2024 14:35:50 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:35:50 - 03/12/2024
+========================================================================
+Contrasts folder                        :       .\pumps_vs_control_pumps
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_control_pumps','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_control_pumps','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_control_pumps','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_control_pumps','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_control_pumps','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\group_stats\default0\pumps_vs_control_pumps','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:35:51 - 03/12/2024
+03-Dec-2024 14:35:51 - Done    'Contrast Manager'
+03-Dec-2024 14:35:51 - Done
+

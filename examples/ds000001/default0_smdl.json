@@ -1,0 +1,904 @@
+{
+  "BIDSModelVersion": "1.0.0-rc1",
+  "Name": "default0",
+  "Description": "standard model",
+  "Input": {
+    "task": "balloonanalogrisktask"
+  },
+  "Edges": [
+    {
+      "Source": "first_level_stats",
+      "Destination": "second_level_stats",
+      "Filter": {}
+    }
+  ],
+  "Nodes": [
+    {
+      "Level": "Subject",
+      "Name": "first_level_stats",
+      "GroupBy": [],
+      "Transformations": {
+        "Transformer": "spm12-spec-v1",
+        "Instructions": [
+          {
+            "Name": "fmri_model_specification",
+            "Input": {
+              "BIDSflag": 1,
+              "Participant_ID": [
+                "sub-02",
+                "sub-03",
+                "sub-04",
+                "sub-05",
+                "sub-06",
+                "sub-07",
+                "sub-08",
+                "sub-09"
+              ],
+              "InputDirectory": "F:/testset_ds000001/derivatives/bidspm-preproc",
+              "InputFilterRegexp": "^sub.*_desc-smth6_bold.*nii$",
+              "ImageType": "4d",
+              "OutputDirectory": "F:/testset_ds000001/derivatives/stats2",
+              "TimingParameters": {
+                "UnitsForDesign": "secs",
+                "InterscanInterval": 2,
+                "MicrotimeResolution": 16,
+                "MicrotimeOnset": 8
+              },
+              "Sessions": [
+                {
+                  "Session_id": "",
+                  "Run_ids": [
+                    "01",
+                    "02",
+                    "03"
+                  ],
+                  "EventsRegexp": "events\\.tsv$",
+                  "Conditions": [
+                    {
+                      "TrialType": "pumps_demean",
+                      "TimeModulation": 0,
+                      "ParametricModulations": [
+                        {
+                          "Name": "",
+                          "ColName": "",
+                          "Poly": 1
+                        }
+                      ],
+                      "OrthogonaliseModulations": 0
+                    },
+                    {
+                      "TrialType": "cash_demean",
+                      "TimeModulation": 0,
+                      "ParametricModulations": [
+                        {
+                          "Name": "",
+                          "ColName": "",
+                          "Poly": 1
+                        }
+                      ],
+                      "OrthogonaliseModulations": 0
+                    },
+                    {
+                      "TrialType": "explode_demean",
+                      "TimeModulation": 0,
+                      "ParametricModulations": [
+                        {
+                          "Name": "",
+                          "ColName": "",
+                          "Poly": 1
+                        }
+                      ],
+                      "OrthogonaliseModulations": 0
+                    },
+                    {
+                      "TrialType": "control_pumps_demean",
+                      "TimeModulation": 0,
+                      "ParametricModulations": [
+                        {
+                          "Name": "",
+                          "ColName": "",
+                          "Poly": 1
+                        }
+                      ],
+                      "OrthogonaliseModulations": 0
+                    }
+                  ],
+                  "ConditionsRegexp": "",
+                  "RegressorsRegexp": "motion\\.tsv$",
+                  "HighPassFilterSecs": 128
+                }
+              ],
+              "FactorialDesign": [
+                {
+                  "Name": "",
+                  "Levels": 0
+                }
+              ],
+              "BasisFunctions": {
+                "Type": "Canonical HRF",
+                "OptionsCanonicalHRF": {
+                  "ModelTimeDerivatives": 0,
+                  "ModelDispersionDerivatives": 0
+                }
+              },
+              "ModelInteractionsVolterra": 0,
+              "GlobalNormalisation": 0,
+              "MaskingThreshold": 0,
+              "ExplicitMask": "W:/_SPM_/masks/brainmask_05.nii",
+              "SerialCorrelations": "AR(1)"
+            },
+            "Output": "SPM.mat"
+          }
+        ]
+      },
+      "Model": {
+        "HRF": {
+          "Model": "spm",
+          "Variables": [
+            "Sn(1) pumps_demean*bf(1)",
+            "Sn(1) cash_demean*bf(1)",
+            "Sn(1) explode_demean*bf(1)",
+            "Sn(1) control_pumps_demean*bf(1)",
+            "Sn(2) pumps_demean*bf(1)",
+            "Sn(2) cash_demean*bf(1)",
+            "Sn(2) explode_demean*bf(1)",
+            "Sn(2) control_pumps_demean*bf(1)",
+            "Sn(3) pumps_demean*bf(1)",
+            "Sn(3) cash_demean*bf(1)",
+            "Sn(3) explode_demean*bf(1)",
+            "Sn(3) control_pumps_demean*bf(1)"
+          ]
+        },
+        "Type": "glm",
+        "X": [
+          "Sn(1) pumps_demean*bf(1)",
+          "Sn(1) cash_demean*bf(1)",
+          "Sn(1) explode_demean*bf(1)",
+          "Sn(1) control_pumps_demean*bf(1)",
+          "Sn(1) trans_x",
+          "Sn(1) trans_y",
+          "Sn(1) trans_z",
+          "Sn(1) rot_x",
+          "Sn(1) rot_y",
+          "Sn(1) rot_z",
+          "Sn(2) pumps_demean*bf(1)",
+          "Sn(2) cash_demean*bf(1)",
+          "Sn(2) explode_demean*bf(1)",
+          "Sn(2) control_pumps_demean*bf(1)",
+          "Sn(2) trans_x",
+          "Sn(2) trans_y",
+          "Sn(2) trans_z",
+          "Sn(2) rot_x",
+          "Sn(2) rot_y",
+          "Sn(2) rot_z",
+          "Sn(3) pumps_demean*bf(1)",
+          "Sn(3) cash_demean*bf(1)",
+          "Sn(3) explode_demean*bf(1)",
+          "Sn(3) control_pumps_demean*bf(1)",
+          "Sn(3) trans_x",
+          "Sn(3) trans_y",
+          "Sn(3) trans_z",
+          "Sn(3) rot_x",
+          "Sn(3) rot_y",
+          "Sn(3) rot_z",
+          "Sn(1) constant",
+          "Sn(2) constant",
+          "Sn(3) constant"
+        ],
+        "Options": {
+          "HighPassFilterCutoffHz": 0.0078125
+        },
+        "Software": [
+          {
+            "SPM": {
+              "WriteResiduals": 0,
+              "Method": {
+                "Type": "Classical"
+              },
+              "DeleteExistingContrasts": 0,
+              "ReplicateOverSessions": "Dont replicate"
+            }
+          }
+        ]
+      },
+      "Contrasts": [
+        {
+          "Name": "cash vs explode",
+          "ConditionList": [
+            "Sn(1) cash_demean*bf(1)",
+            "Sn(1) explode_demean*bf(1)",
+            "Sn(2) cash_demean*bf(1)",
+            "Sn(2) explode_demean*bf(1)",
+            "Sn(3) cash_demean*bf(1)",
+            "Sn(3) explode_demean*bf(1)"
+          ],
+          "Weights": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "Test": "t"
+        },
+        {
+          "Name": "pumps vs cash",
+          "ConditionList": [
+            "Sn(1) pumps_demean*bf(1)",
+            "Sn(1) cash_demean*bf(1)",
+            "Sn(2) pumps_demean*bf(1)",
+            "Sn(2) cash_demean*bf(1)",
+            "Sn(3) pumps_demean*bf(1)",
+            "Sn(3) cash_demean*bf(1)"
+          ],
+          "Weights": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "Test": "t"
+        },
+        {
+          "Name": "pumps vs explode",
+          "ConditionList": [
+            "Sn(1) pumps_demean*bf(1)",
+            "Sn(1) explode_demean*bf(1)",
+            "Sn(2) pumps_demean*bf(1)",
+            "Sn(2) explode_demean*bf(1)",
+            "Sn(3) pumps_demean*bf(1)",
+            "Sn(3) explode_demean*bf(1)"
+          ],
+          "Weights": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "Test": "t"
+        },
+        {
+          "Name": "pumps vs control_pumps",
+          "ConditionList": [
+            "Sn(1) pumps_demean*bf(1)",
+            "Sn(1) control_pumps_demean*bf(1)",
+            "Sn(2) pumps_demean*bf(1)",
+            "Sn(2) control_pumps_demean*bf(1)",
+            "Sn(3) pumps_demean*bf(1)",
+            "Sn(3) control_pumps_demean*bf(1)"
+          ],
+          "Weights": [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "Test": "t"
+        },
+        {
+          "Name": "var",
+          "ConditionList": [
+            "Sn(1) pumps_demean*bf(1)",
+            "Sn(1) cash_demean*bf(1)",
+            "Sn(1) explode_demean*bf(1)",
+            "Sn(1) control_pumps_demean*bf(1)",
+            "Sn(1) trans_x",
+            "Sn(1) trans_y",
+            "Sn(1) trans_z",
+            "Sn(1) rot_x",
+            "Sn(1) rot_y",
+            "Sn(1) rot_z",
+            "Sn(2) pumps_demean*bf(1)",
+            "Sn(2) cash_demean*bf(1)",
+            "Sn(2) explode_demean*bf(1)",
+            "Sn(2) control_pumps_demean*bf(1)",
+            "Sn(2) trans_x",
+            "Sn(2) trans_y",
+            "Sn(2) trans_z",
+            "Sn(2) rot_x",
+            "Sn(2) rot_y",
+            "Sn(2) rot_z",
+            "Sn(3) pumps_demean*bf(1)",
+            "Sn(3) cash_demean*bf(1)",
+            "Sn(3) explode_demean*bf(1)",
+            "Sn(3) control_pumps_demean*bf(1)",
+            "Sn(3) trans_x",
+            "Sn(3) trans_y",
+            "Sn(3) trans_z",
+            "Sn(3) rot_x",
+            "Sn(3) rot_y",
+            "Sn(3) rot_z",
+            "Sn(1) constant",
+            "Sn(2) constant",
+            "Sn(3) constant"
+          ],
+          "Weights": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "Test": "F"
+        }
+      ],
+      "DummyContrasts": {
+        "Test": "t",
+        "Contrasts": [
+          "Sn(1) pumps_demean*bf(1)",
+          "Sn(1) cash_demean*bf(1)",
+          "Sn(1) explode_demean*bf(1)",
+          "Sn(1) control_pumps_demean*bf(1)",
+          "Sn(2) pumps_demean*bf(1)",
+          "Sn(2) cash_demean*bf(1)",
+          "Sn(2) explode_demean*bf(1)",
+          "Sn(2) control_pumps_demean*bf(1)",
+          "Sn(3) pumps_demean*bf(1)",
+          "Sn(3) cash_demean*bf(1)",
+          "Sn(3) explode_demean*bf(1)",
+          "Sn(3) control_pumps_demean*bf(1)"
+        ]
+      }
+    },
+    {
+      "Level": "Dataset",
+      "Name": "second_level_stats",
+      "GroupBy": [],
+      "Transformations": {
+        "Transformer": "spm12-spec-v1",
+        "Instructions": [
+          {
+            "Name": "factorial_design_specification",
+            "Input": {
+              "MainProjectFolder": "F:/testset_ds000001",
+              "OutputDirectory": "F:/testset_ds000001/derivatives/stats2/group_stats",
+              "Design": {
+                "Type": "OneSampleTTest",
+                "InputOneSampleTTest": {
+                  "Scans": {
+                    "ContrastsToProcess": [
+                      "cash vs explode",
+                      "pumps vs cash",
+                      "pumps vs explode",
+                      "pumps vs control_pumps"
+                    ],
+                    "InputFileType": "con",
+                    "InputFilterRegexp": [
+                      ""
+                    ]
+                  }
+                }
+              },
+              "Covariates": [
+                {
+                  "CovariatesFileRegexp": "^participants\\.tsv$",
+                  "Name": "age",
+                  "ColName": "age",
+                  "Interactions": "None",
+                  "Centering": "Overall mean"
+                },
+                {
+                  "CovariatesFileRegexp": "^participants\\.tsv$",
+                  "Name": "sex",
+                  "ColName": "sex",
+                  "Interactions": "None",
+                  "Centering": "Overall mean"
+                }
+              ],
+              "Masking": {
+                "ThresholdMasking": {
+                  "Type": "None"
+                },
+                "ImplicitMask": 0,
+                "ExplicitMask": "W:/_SPM_/masks/brainmask_05.nii"
+              },
+              "GlobalCalculation": {
+                "Type": "Omit",
+                "UserSpecifiedValues": [
+                  []
+                ]
+              },
+              "GlobalNormalisation": {
+                "OverallGrandMeanScaling": 0,
+                "UserSpecifiedValue": 50,
+                "Normalisation": "None"
+              }
+            }
+          }
+        ]
+      },
+      "Model": {
+        "Type": "glm",
+        "X": [
+          "mean",
+          "age",
+          "sex"
+        ],
+        "Software": [
+          {
+            "SPM": {
+              "WriteResiduals": 0,
+              "Method": {
+                "Type": "Classical"
+              },
+              "DeleteExistingContrasts": 0,
+              "ReplicateOverSessions": "Dont replicate"
+            }
+          }
+        ]
+      },
+      "Contrasts": [
+        {
+          "Name": "more",
+          "ConditionList": [
+            "mean"
+          ],
+          "Weights": 1,
+          "Test": "t"
+        },
+        {
+          "Name": "less",
+          "ConditionList": [
+            "mean"
+          ],
+          "Weights": -1,
+          "Test": "t"
+        },
+        {
+          "Name": "age_more",
+          "ConditionList": [
+            "age"
+          ],
+          "Weights": 1,
+          "Test": "t"
+        },
+        {
+          "Name": "age_less",
+          "ConditionList": [
+            "age"
+          ],
+          "Weights": -1,
+          "Test": "t"
+        },
+        {
+          "Name": "sex_1",
+          "ConditionList": [
+            "sex"
+          ],
+          "Weights": 1,
+          "Test": "t"
+        },
+        {
+          "Name": "sex_2",
+          "ConditionList": [
+            "sex"
+          ],
+          "Weights": -1,
+          "Test": "t"
+        }
+      ]
+    }
+  ]
+}

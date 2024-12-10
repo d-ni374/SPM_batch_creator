@@ -1,0 +1,1070 @@
+Validation OK.
+
+Validating data for participant "sub-02"
+
+SPM12: spm_fMRI_design (v7210)                     14:21:02 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              14:21:02 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:21:05 - 03/12/2024
+
+Validating data for participant "sub-03"
+
+SPM12: spm_fMRI_design (v7210)                     14:21:06 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              14:21:06 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:21:08 - 03/12/2024
+
+Validating data for participant "sub-04"
+
+SPM12: spm_fMRI_design (v7210)                     14:21:09 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              14:21:09 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:21:11 - 03/12/2024
+
+Validating data for participant "sub-05"
+
+SPM12: spm_fMRI_design (v7210)                     14:21:12 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              14:21:12 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:21:14 - 03/12/2024
+
+Validating data for participant "sub-06"
+
+SPM12: spm_fMRI_design (v7210)                     14:21:16 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              14:21:16 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:21:18 - 03/12/2024
+
+Validating data for participant "sub-07"
+
+SPM12: spm_fMRI_design (v7210)                     14:21:19 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              14:21:19 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:21:21 - 03/12/2024
+
+Validating data for participant "sub-08"
+
+SPM12: spm_fMRI_design (v7210)                     14:21:22 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              14:21:22 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:21:24 - 03/12/2024
+
+Validating data for participant "sub-09"
+
+SPM12: spm_fMRI_design (v7210)                     14:21:25 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              14:21:25 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          14:21:27 - 03/12/2024
+Validating Edge 1
+
+Creating batch for participant "sub-02"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:21:32 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:21:32 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:21:32 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:21:32 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:21:39 - 03/12/2024
+03-Dec-2024 14:21:39 - Done    'fMRI model specification'
+03-Dec-2024 14:21:39 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:21:39 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:21:40 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Temporal non-sphericity (39988 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.309632e+02 [+4.25]
+  ReML Iteration 2                      :        ...6.670800e+02 [+3.25]
+  ReML Iteration 3                      :        ...1.189383e+01 [+3.50]
+  ReML Iteration 4                      :        ...7.171485e+04 [+2.50]
+  ReML Iteration 5                      :        ...7.686769e+03 [+2.75]
+  ReML Iteration 6                      :        ...1.195680e+05 [+1.75]
+  ReML Iteration 7                      :        ...1.554807e+06 [+0.75]
+  ReML Iteration 8                      :        ...1.981053e+07 [-0.25]
+  ReML Iteration 9                      :        ...3.782865e+06 [+0.00]
+  ReML Iteration 10                     :        ...9.305063e+05 [+0.25]
+  ReML Iteration 11                     :        ...1.440169e+05 [+0.50]
+  ReML Iteration 12                     :        ...1.233370e+04 [+0.75]
+  ReML Iteration 13                     :        ...4.964886e+02 [+1.00]
+  ReML Iteration 14                     :        ...7.637325e+00 [+1.25]
+  ReML Iteration 15                     :        ...3.456515e-02 [+1.50]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.478983e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.025416e+03 [+3.25]
+  ReML Iteration 3                      :        ...7.750346e+01 [+3.50]
+  ReML Iteration 4                      :        ...2.510380e+02 [+2.50]
+  ReML Iteration 5                      :        ...5.679601e+01 [+2.75]
+  ReML Iteration 6                      :        ...3.395361e+02 [+1.75]
+  ReML Iteration 7                      :        ...1.108066e+03 [+0.75]
+  ReML Iteration 8                      :        ...4.215868e+03 [-0.25]
+  ReML Iteration 9                      :        ...1.328545e+01 [+0.00]
+  ReML Iteration 10                     :        ...7.578694e+01 [-1.00]
+  ReML Iteration 11                     :        ...2.699968e+01 [-0.75]
+  ReML Iteration 12                     :        ...1.466906e+01 [-0.50]
+  ReML Iteration 13                     :        ...1.656604e+01 [-1.50]
+  ReML Iteration 14                     :        ...1.752919e+01 [-2.50]
+  ReML Iteration 15                     :        ...1.761240e+06 [-3.50]
+  ReML Iteration 16                     :        ...2.178964e+03 [-3.25]
+  ReML Iteration 17                     :        ...1.316993e+04 [-4.25]
+  ReML Iteration 18                     :        ...6.068769e+04 [-5.25]
+  ReML Iteration 19                     :        ...9.712921e+04 [-6.25]
+  ReML Iteration 20                     :        ...4.543673e+04 [-6.00]
+  ReML Iteration 21                     :        ...5.980532e+04 [-7.00]
+  ReML Iteration 22                     :        ...2.234733e+04 [-6.75]
+  ReML Iteration 23                     :        ...2.877065e+04 [-7.75]
+  ReML Iteration 24                     :        ...1.061331e+04 [-7.50]
+  ReML Iteration 25                     :        ...1.363488e+04 [-8.00]
+  ReML Iteration 26                     :        ...8.275491e+03 [-7.75]
+  ReML Iteration 27                     :        ...1.062849e+04 [-8.00]
+  ReML Iteration 28                     :        ...8.279457e+03 [-7.75]
+  ReML Iteration 29                     :        ...1.063242e+04 [-8.00]
+  ReML Iteration 30                     :        ...8.281609e+03 [-7.75]
+  ReML Iteration 31                     :        ...1.063383e+04 [-8.00]
+  ReML Iteration 32                     :        ...8.281497e+03 [-7.75]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...3.230218e+17 [+8.00]
+  ReML Iteration 2                      :        ...3.227862e+17 [+8.00]
+  ReML Iteration 1                      :        ...2.979087e+17 [+7.25]
+  ReML Iteration 2                      :        ...2.977949e+17 [+7.50]
+  ReML Iteration 1                      :        ...9.280031e+16 [+6.75]
+  ReML Iteration 2                      :        ...9.278311e+16 [+7.00]
+  ReML Iteration 1                      :        ...1.610496e+16 [+6.25]
+  ReML Iteration 2                      :        ...1.610340e+16 [+6.50]
+  ReML Iteration 1                      :        ...2.632962e+16 [+5.75]
+  ReML Iteration 2                      :        ...2.632825e+16 [+6.00]
+  ReML Iteration 1                      :        ...1.009496e+16 [+5.25]
+  ReML Iteration 2                      :        ...1.009444e+16 [+5.50]
+  ReML Iteration 1                      :        ...1.543617e+15 [+4.75]
+  ReML Iteration 2                      :        ...1.543498e+15 [+5.00]
+  ReML Iteration 1                      :        ...2.219123e+14 [+4.25]
+  ReML Iteration 2                      :        ...2.218623e+14 [+4.50]
+  ReML Iteration 1                      :        ...3.166308e+15 [+3.75]
+  ReML Iteration 2                      :        ...3.165802e+15 [+4.00]
+  ReML Iteration 1                      :        ...3.157662e+14 [+3.25]
+  ReML Iteration 2                      :        ...3.155704e+14 [+3.50]
+  ReML Iteration 1                      :        ...1.761084e+15 [+2.75]
+  ReML Iteration 2                      :        ...1.760271e+15 [+3.00]
+  ReML Iteration 1                      :        ...1.810146e+14 [+2.25]
+  ReML Iteration 2                      :        ...1.805676e+14 [+2.50]
+  ReML Iteration 3                      :        ...9.428379e+17 [+1.50]
+  ReML Iteration 4                      :        ...9.320735e+17 [+1.75]
+  ReML Iteration 5                      :        ...1.203005e+14 [+2.00]
+  ReML Iteration 6                      :        ...8.665712e+10 [+2.25]
+  ReML Iteration 7                      :        ...2.027190e+14 [+1.25]
+  ReML Iteration 8                      :        ...1.968736e+14 [+1.50]
+  ReML Iteration 9                      :        ...1.895108e+11 [+1.75]
+  ReML Iteration 10                     :        ...1.636996e+19 [+0.75]
+  ReML Iteration 11                     :        ...1.435239e+19 [+1.00]
+  ReML Iteration 12                     :        ...2.208945e+17 [+1.25]
+  ReML Iteration 13                     :        ...9.984238e+14 [+1.50]
+  ReML Iteration 14                     :        ...9.444029e+11 [+1.75]
+  ReML Iteration 15                     :        ...1.209490e+14 [+0.75]
+  ReML Iteration 16                     :        ...1.062845e+14 [+1.00]
+  ReML Iteration 17                     :        ...1.634208e+12 [+1.25]
+  ReML Iteration 18                     :        ...8.060256e+09 [+1.50]
+  ReML Iteration 19                     :        ...4.128101e+19 [+0.50]
+  ReML Iteration 20                     :        ...3.291476e+19 [+0.75]
+  ReML Iteration 21                     :        ...1.325459e+18 [+1.00]
+  ReML Iteration 22                     :        ...2.039984e+16 [+1.25]
+  ReML Iteration 23                     :        ...9.220526e+13 [+1.50]
+  ReML Iteration 24                     :        ...7.316946e+10 [+1.75]
+  ReML Iteration 25                     :        ...5.542027e+11 [+0.75]
+  ReML Iteration 26                     :        ...5.176487e+11 [+1.00]
+  ReML Iteration 27                     :        ...1.363011e+11 [+1.25]
+  ReML Iteration 28                     :        ...1.831545e+11 [+0.25]
+  ReML Iteration 29                     :        ...1.194995e+12 [-0.75]
+  ReML Iteration 30                     :        ...3.286219e+11 [-0.50]
+  ReML Iteration 31                     :        ...1.842284e+11 [-0.25]
+  ReML Iteration 1                      :        ...1.970580e+13 [-1.00]
+  ReML Iteration 2                      :        ...1.485127e+12 [-0.75]
+  ReML Iteration 3                      :        ...8.693417e+11 [-0.50]
+  ReML Iteration 4                      :        ...4.080866e+11 [-0.25]
+  ReML Iteration 5                      :        ...1.425084e+11 [+0.00]
+  ReML Iteration 6                      :        ...2.548445e+10 [+0.25]
+  ReML Iteration 7                      :        ...2.899328e+10 [-0.75]
+  ReML Iteration 8                      :        ...1.456838e+10 [-0.50]
+  ReML Iteration 9                      :        ...9.545192e+09 [-0.25]
+  ReML Iteration 10                     :        ...4.624477e+08 [+0.00]
+  ReML Iteration 11                     :        ...2.035447e+10 [-1.00]
+  ReML Iteration 12                     :        ...1.537407e+10 [-0.75]
+  ReML Iteration 13                     :        ...3.441589e+09 [-0.50]
+  ReML Iteration 14                     :        ...2.736206e+08 [-0.25]
+  ReML Iteration 15                     :        ...7.288147e+09 [-1.25]
+  ReML Iteration 16                     :        ...4.162889e+10 [-2.25]
+  ReML Iteration 17                     :        ...2.413947e+09 [-2.00]
+  ReML Iteration 18                     :        ...4.218286e+08 [-1.75]
+  ReML Iteration 19                     :        ...1.523581e+08 [-1.50]
+  ReML Iteration 20                     :        ...3.062987e+08 [-2.50]
+  ReML Iteration 21                     :        ...2.761202e+08 [-2.25]
+  ReML Iteration 22                     :        ...6.109513e+08 [-3.25]
+  ReML Iteration 23                     :        ...5.110975e+08 [-3.00]
+  ReML Iteration 24                     :        ...4.012786e+08 [-2.75]
+  ReML Iteration 25                     :        ...8.560489e+07 [-2.50]
+  ReML Iteration 26                     :        ...6.731914e+06 [-2.25]
+  ReML Iteration 27                     :        ...2.824432e+08 [-3.25]
+  ReML Iteration 28                     :        ...5.809792e+08 [-4.25]
+  ReML Iteration 29                     :        ...6.094394e+06 [-4.00]
+  ReML Iteration 30                     :        ...5.195050e+07 [-5.00]
+  ReML Iteration 31                     :        ...9.326067e+07 [-6.00]
+  ReML Iteration 32                     :        ...5.362913e+06 [-5.75]
+
+SPM12: spm_spm (v7120)                             14:21:46 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:21:56 - 03/12/2024
+Done
+03-Dec-2024 14:21:56 - Done    'Model estimation'
+03-Dec-2024 14:21:56 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:21:56 - 03/12/2024
+========================================================================
+Contrasts folder                        : .\sub-02\balloonanalogrisktask
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	ESS image  5                    :                   ...computing       ...written ess_0005.nii
+	spm{F} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmF_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	contrast image  8               :                   ...computing       ...written con_0008.nii
+	spm{T} image  8                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',8));TabDat = spm_list('List',xSPM,hReg);;">spmT_0008.nii</a>
+	contrast image  9               :                   ...computing       ...written con_0009.nii
+	spm{T} image  9                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',9));TabDat = spm_list('List',xSPM,hReg);;">spmT_0009.nii</a>
+	contrast image 10               :                   ...computing       ...written con_0010.nii
+	spm{T} image 10                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',10));TabDat = spm_list('List',xSPM,hReg);;">spmT_0010.nii</a>
+	contrast image 11               :                   ...computing       ...written con_0011.nii
+	spm{T} image 11                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',11));TabDat = spm_list('List',xSPM,hReg);;">spmT_0011.nii</a>
+	contrast image 12               :                   ...computing       ...written con_0012.nii
+	spm{T} image 12                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',12));TabDat = spm_list('List',xSPM,hReg);;">spmT_0012.nii</a>
+	contrast image 13               :                   ...computing       ...written con_0013.nii
+	spm{T} image 13                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',13));TabDat = spm_list('List',xSPM,hReg);;">spmT_0013.nii</a>
+	contrast image 14               :                   ...computing       ...written con_0014.nii
+	spm{T} image 14                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',14));TabDat = spm_list('List',xSPM,hReg);;">spmT_0014.nii</a>
+	contrast image 15               :                   ...computing       ...written con_0015.nii
+	spm{T} image 15                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',15));TabDat = spm_list('List',xSPM,hReg);;">spmT_0015.nii</a>
+	contrast image 16               :                   ...computing       ...written con_0016.nii
+	spm{T} image 16                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',16));TabDat = spm_list('List',xSPM,hReg);;">spmT_0016.nii</a>
+	contrast image 17               :                   ...computing       ...written con_0017.nii
+	spm{T} image 17                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-02\balloonanalogrisktask','Ic',17));TabDat = spm_list('List',xSPM,hReg);;">spmT_0017.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:21:58 - 03/12/2024
+03-Dec-2024 14:21:58 - Done    'Contrast Manager'
+03-Dec-2024 14:21:58 - Done
+
+
+Creating batch for participant "sub-03"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:22:03 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:22:03 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:22:03 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:22:03 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:22:09 - 03/12/2024
+03-Dec-2024 14:22:09 - Done    'fMRI model specification'
+03-Dec-2024 14:22:09 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:22:09 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:22:10 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Temporal non-sphericity (46491 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.591287e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.966698e-02 [+4.50]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.951583e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.663703e-03 [+4.50]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...1.319375e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.651802e-02 [+4.50]
+
+SPM12: spm_spm (v7120)                             14:22:15 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:22:24 - 03/12/2024
+Done
+03-Dec-2024 14:22:24 - Done    'Model estimation'
+03-Dec-2024 14:22:24 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:22:24 - 03/12/2024
+========================================================================
+Contrasts folder                        : .\sub-03\balloonanalogrisktask
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	ESS image  5                    :                   ...computing       ...written ess_0005.nii
+	spm{F} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmF_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	contrast image  8               :                   ...computing       ...written con_0008.nii
+	spm{T} image  8                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',8));TabDat = spm_list('List',xSPM,hReg);;">spmT_0008.nii</a>
+	contrast image  9               :                   ...computing       ...written con_0009.nii
+	spm{T} image  9                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',9));TabDat = spm_list('List',xSPM,hReg);;">spmT_0009.nii</a>
+	contrast image 10               :                   ...computing       ...written con_0010.nii
+	spm{T} image 10                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',10));TabDat = spm_list('List',xSPM,hReg);;">spmT_0010.nii</a>
+	contrast image 11               :                   ...computing       ...written con_0011.nii
+	spm{T} image 11                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',11));TabDat = spm_list('List',xSPM,hReg);;">spmT_0011.nii</a>
+	contrast image 12               :                   ...computing       ...written con_0012.nii
+	spm{T} image 12                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',12));TabDat = spm_list('List',xSPM,hReg);;">spmT_0012.nii</a>
+	contrast image 13               :                   ...computing       ...written con_0013.nii
+	spm{T} image 13                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',13));TabDat = spm_list('List',xSPM,hReg);;">spmT_0013.nii</a>
+	contrast image 14               :                   ...computing       ...written con_0014.nii
+	spm{T} image 14                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',14));TabDat = spm_list('List',xSPM,hReg);;">spmT_0014.nii</a>
+	contrast image 15               :                   ...computing       ...written con_0015.nii
+	spm{T} image 15                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',15));TabDat = spm_list('List',xSPM,hReg);;">spmT_0015.nii</a>
+	contrast image 16               :                   ...computing       ...written con_0016.nii
+	spm{T} image 16                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',16));TabDat = spm_list('List',xSPM,hReg);;">spmT_0016.nii</a>
+	contrast image 17               :                   ...computing       ...written con_0017.nii
+	spm{T} image 17                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-03\balloonanalogrisktask','Ic',17));TabDat = spm_list('List',xSPM,hReg);;">spmT_0017.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:22:26 - 03/12/2024
+03-Dec-2024 14:22:26 - Done    'Contrast Manager'
+03-Dec-2024 14:22:26 - Done
+
+
+Creating batch for participant "sub-04"
+[Warning: Contrast cash vs explode could not be created for subject sub-04.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 39)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',39,0)">line 39</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+[Warning: Contrast pumps vs cash could not be created for subject sub-04.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 39)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',39,0)">line 39</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+[Warning: Contrast var could not be created for subject sub-04.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 91)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',91,0)">line 91</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+[Warning: Dummy contrast Sn(1) cash_demean*bf(1) could not be created for subject sub-04.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 115)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',115,0)">line 115</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+[Warning: Dummy contrast Sn(2) cash_demean*bf(1) could not be created for subject sub-04.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 115)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',115,0)">line 115</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+[Warning: Dummy contrast Sn(3) cash_demean*bf(1) could not be created for subject sub-04.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 115)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',115,0)">line 115</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:22:31 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:22:31 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:22:31 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:22:31 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:22:37 - 03/12/2024
+03-Dec-2024 14:22:37 - Done    'fMRI model specification'
+03-Dec-2024 14:22:37 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:22:38 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:22:38 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Temporal non-sphericity (40300 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...5.257130e+00 [+4.25]
+  ReML Iteration 2                      :        ...6.821381e-03 [+4.50]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...6.758958e+00 [+4.25]
+  ReML Iteration 2                      :        ...9.890499e-03 [+4.50]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...2.165047e+01 [+4.25]
+  ReML Iteration 2                      :        ...9.189411e-03 [+4.50]
+
+SPM12: spm_spm (v7120)                             14:22:43 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:22:52 - 03/12/2024
+Done
+03-Dec-2024 14:22:52 - Done    'Model estimation'
+03-Dec-2024 14:22:52 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:22:52 - 03/12/2024
+========================================================================
+Contrasts folder                        : .\sub-04\balloonanalogrisktask
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	contrast image  8               :                   ...computing       ...written con_0008.nii
+	spm{T} image  8                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',8));TabDat = spm_list('List',xSPM,hReg);;">spmT_0008.nii</a>
+	contrast image  9               :                   ...computing       ...written con_0009.nii
+	spm{T} image  9                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',9));TabDat = spm_list('List',xSPM,hReg);;">spmT_0009.nii</a>
+	contrast image 10               :                   ...computing       ...written con_0010.nii
+	spm{T} image 10                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',10));TabDat = spm_list('List',xSPM,hReg);;">spmT_0010.nii</a>
+	contrast image 11               :                   ...computing       ...written con_0011.nii
+	spm{T} image 11                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-04\balloonanalogrisktask','Ic',11));TabDat = spm_list('List',xSPM,hReg);;">spmT_0011.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:22:54 - 03/12/2024
+03-Dec-2024 14:22:54 - Done    'Contrast Manager'
+03-Dec-2024 14:22:54 - Done
+
+
+Creating batch for participant "sub-05"
+[Warning: Contrast cash vs explode could not be created for subject sub-05.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 39)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',39,0)">line 39</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+[Warning: Contrast pumps vs explode could not be created for subject sub-05.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 39)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',39,0)">line 39</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+[Warning: Contrast var could not be created for subject sub-05.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 91)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',91,0)">line 91</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+[Warning: Dummy contrast Sn(2) explode_demean*bf(1) could not be created for subject sub-05.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('define_contrasts', 'C:\Users\Daniel\Documents\MATLAB\define_contrasts.m', 115)" style="font-weight:bold">define_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\define_contrasts.m',115,0)">line 115</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 107)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',107,0)">line 107</a>)] 
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:22:58 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:22:58 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:22:58 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:22:59 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:23:05 - 03/12/2024
+03-Dec-2024 14:23:05 - Done    'fMRI model specification'
+03-Dec-2024 14:23:05 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:23:05 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:23:06 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Temporal non-sphericity (47680 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...5.665902e+01 [+4.25]
+  ReML Iteration 2                      :        ...7.407909e-01 [+4.50]
+  ReML Iteration 3                      :        ...1.510485e-02 [+4.75]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...3.437104e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.951591e+00 [+4.50]
+  ReML Iteration 3                      :        ...9.325285e-02 [+4.75]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...3.010366e+01 [+4.25]
+  ReML Iteration 2                      :        ...2.227935e+00 [+4.50]
+  ReML Iteration 3                      :        ...1.201358e-01 [+4.75]
+  ReML Iteration 4                      :        ...7.055893e-03 [+5.00]
+
+SPM12: spm_spm (v7120)                             14:23:10 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:23:19 - 03/12/2024
+Done
+03-Dec-2024 14:23:19 - Done    'Model estimation'
+03-Dec-2024 14:23:19 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:23:19 - 03/12/2024
+========================================================================
+Contrasts folder                        : .\sub-05\balloonanalogrisktask
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	contrast image  8               :                   ...computing       ...written con_0008.nii
+	spm{T} image  8                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',8));TabDat = spm_list('List',xSPM,hReg);;">spmT_0008.nii</a>
+	contrast image  9               :                   ...computing       ...written con_0009.nii
+	spm{T} image  9                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',9));TabDat = spm_list('List',xSPM,hReg);;">spmT_0009.nii</a>
+	contrast image 10               :                   ...computing       ...written con_0010.nii
+	spm{T} image 10                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',10));TabDat = spm_list('List',xSPM,hReg);;">spmT_0010.nii</a>
+	contrast image 11               :                   ...computing       ...written con_0011.nii
+	spm{T} image 11                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',11));TabDat = spm_list('List',xSPM,hReg);;">spmT_0011.nii</a>
+	contrast image 12               :                   ...computing       ...written con_0012.nii
+	spm{T} image 12                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',12));TabDat = spm_list('List',xSPM,hReg);;">spmT_0012.nii</a>
+	contrast image 13               :                   ...computing       ...written con_0013.nii
+	spm{T} image 13                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-05\balloonanalogrisktask','Ic',13));TabDat = spm_list('List',xSPM,hReg);;">spmT_0013.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:23:21 - 03/12/2024
+03-Dec-2024 14:23:21 - Done    'Contrast Manager'
+03-Dec-2024 14:23:21 - Done
+
+
+Creating batch for participant "sub-06"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:23:26 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:23:26 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:23:26 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:23:26 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:23:32 - 03/12/2024
+03-Dec-2024 14:23:32 - Done    'fMRI model specification'
+03-Dec-2024 14:23:32 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:23:32 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:23:33 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Temporal non-sphericity (43090 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.392424e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.043526e+05 [+3.25]
+  ReML Iteration 3                      :        ...6.879153e+02 [+3.50]
+  ReML Iteration 4                      :        ...4.927211e+03 [+2.50]
+  ReML Iteration 5                      :        ...5.427594e+00 [+2.75]
+  ReML Iteration 6                      :        ...9.473157e+01 [+1.75]
+  ReML Iteration 7                      :        ...1.574386e+01 [+2.00]
+  ReML Iteration 8                      :        ...1.615086e+01 [+1.00]
+  ReML Iteration 9                      :        ...8.901600e+05 [+0.00]
+  ReML Iteration 10                     :        ...1.705835e+00 [+0.25]
+  ReML Iteration 11                     :        ...9.216771e+02 [-0.75]
+  ReML Iteration 12                     :        ...1.935535e+03 [-1.75]
+  ReML Iteration 13                     :        ...8.499536e+01 [-1.50]
+  ReML Iteration 14                     :        ...5.967462e-01 [-1.25]
+  ReML Iteration 15                     :        ...2.719395e+04 [-2.25]
+  ReML Iteration 16                     :        ...1.052555e+06 [-3.25]
+  ReML Iteration 17                     :        ...8.704891e-01 [-3.00]
+  ReML Iteration 18                     :        ...3.573062e+02 [-4.00]
+  ReML Iteration 19                     :        ...1.945478e+02 [-3.75]
+  ReML Iteration 20                     :        ...8.889329e-01 [-3.50]
+  ReML Iteration 21                     :        ...4.121076e+02 [-4.50]
+  ReML Iteration 22                     :        ...1.265413e+00 [-4.25]
+  ReML Iteration 23                     :        ...1.309148e+01 [-5.25]
+  ReML Iteration 24                     :        ...4.798159e+00 [-5.00]
+  ReML Iteration 25                     :        ...5.537497e-01 [-4.75]
+  ReML Iteration 26                     :        ...3.557584e+01 [-5.75]
+  ReML Iteration 27                     :        ...4.981293e+00 [-5.50]
+  ReML Iteration 28                     :        ...4.304681e+01 [-6.50]
+  ReML Iteration 29                     :        ...4.883099e-01 [-6.25]
+  ReML Iteration 30                     :        ...2.542895e+00 [-7.25]
+  ReML Iteration 31                     :        ...2.168991e-01 [-7.00]
+  ReML Iteration 32                     :        ...4.045489e+00 [-8.00]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.390315e+02 [+4.25]
+  ReML Iteration 2                      :        ...9.689839e+04 [+3.25]
+  ReML Iteration 3                      :        ...1.156583e+03 [+3.50]
+  ReML Iteration 4                      :        ...7.000049e+03 [+2.50]
+  ReML Iteration 5                      :        ...1.493648e+01 [+2.75]
+  ReML Iteration 6                      :        ...8.562124e+00 [+3.00]
+  ReML Iteration 7                      :        ...1.913549e+00 [+3.25]
+  ReML Iteration 8                      :        ...6.516638e+01 [+2.25]
+  ReML Iteration 9                      :        ...2.466265e+01 [+2.50]
+  ReML Iteration 10                     :        ...1.560699e+01 [+2.75]
+  ReML Iteration 11                     :        ...5.670388e+00 [+3.00]
+  ReML Iteration 12                     :        ...1.743068e+03 [+2.00]
+  ReML Iteration 13                     :        ...1.855010e+02 [+2.25]
+  ReML Iteration 14                     :        ...3.979344e+03 [+1.25]
+  ReML Iteration 15                     :        ...5.211427e+03 [+0.25]
+  ReML Iteration 16                     :        ...7.449101e+01 [+0.50]
+  ReML Iteration 17                     :        ...1.823815e+02 [-0.50]
+  ReML Iteration 18                     :        ...7.487383e+00 [-0.25]
+  ReML Iteration 19                     :        ...4.365487e+00 [+0.00]
+  ReML Iteration 20                     :        ...5.201267e+08 [-1.00]
+  ReML Iteration 21                     :        ...4.839288e-01 [-0.75]
+  ReML Iteration 22                     :        ...2.484729e+03 [-1.75]
+  ReML Iteration 23                     :        ...1.571072e+04 [-2.75]
+  ReML Iteration 24                     :        ...2.184581e+00 [-2.50]
+  ReML Iteration 25                     :        ...2.074491e+02 [-3.50]
+  ReML Iteration 26                     :        ...3.046041e+01 [-3.25]
+  ReML Iteration 27                     :        ...1.390736e+01 [-3.00]
+  ReML Iteration 28                     :        ...1.071895e+02 [-4.00]
+  ReML Iteration 29                     :        ...1.119462e+01 [-3.75]
+  ReML Iteration 30                     :        ...2.793218e-01 [-3.50]
+  ReML Iteration 31                     :        ...8.111463e+01 [-4.50]
+  ReML Iteration 32                     :        ...1.246285e+00 [-4.25]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...1.389886e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.411475e+04 [+3.25]
+  ReML Iteration 3                      :        ...2.524190e+03 [+3.50]
+  ReML Iteration 4                      :        ...1.466827e+02 [+3.75]
+  ReML Iteration 5                      :        ...5.466230e+00 [+4.00]
+  ReML Iteration 6                      :        ...4.595643e+03 [+3.00]
+  ReML Iteration 7                      :        ...4.152318e+04 [+2.00]
+  ReML Iteration 8                      :        ...7.821871e+01 [+2.25]
+  ReML Iteration 9                      :        ...6.042279e+01 [+2.50]
+  ReML Iteration 10                     :        ...1.045412e+03 [+1.50]
+  ReML Iteration 11                     :        ...3.262631e+00 [+1.75]
+  ReML Iteration 12                     :        ...2.851254e+00 [+2.00]
+  ReML Iteration 13                     :        ...1.886639e+00 [+2.25]
+  ReML Iteration 14                     :        ...8.327843e-01 [+2.50]
+  ReML Iteration 15                     :        ...1.041255e-01 [+2.75]
+  ReML Iteration 16                     :        ...4.297004e+01 [+1.75]
+  ReML Iteration 17                     :        ...4.395197e+02 [+0.75]
+  ReML Iteration 18                     :        ...8.922662e-01 [+1.00]
+  ReML Iteration 19                     :        ...6.242597e+02 [+0.00]
+  ReML Iteration 20                     :        ...7.984534e-02 [+0.25]
+  ReML Iteration 1                      :        ...1.282910e+02 [+0.50]
+  ReML Iteration 2                      :        ...2.911044e+00 [+0.75]
+  ReML Iteration 3                      :        ...4.042038e+00 [-0.25]
+  ReML Iteration 4                      :        ...6.678600e-01 [+0.00]
+  ReML Iteration 5                      :        ...4.746269e+00 [-1.00]
+  ReML Iteration 6                      :        ...7.624234e-02 [-0.75]
+  ReML Iteration 1                      :        ...1.037290e+02 [-0.50]
+  ReML Iteration 2                      :        ...6.350487e+05 [-1.50]
+  ReML Iteration 3                      :        ...5.044796e+00 [-1.25]
+  ReML Iteration 4                      :        ...6.192321e-01 [-1.00]
+  ReML Iteration 5                      :        ...9.478140e+03 [-2.00]
+  ReML Iteration 6                      :        ...5.509373e+00 [-1.75]
+  ReML Iteration 7                      :        ...6.511354e-01 [-1.50]
+  ReML Iteration 8                      :        ...5.313326e-01 [-1.25]
+  ReML Iteration 9                      :        ...7.883962e-01 [-2.25]
+  ReML Iteration 10                     :        ...3.423329e-01 [-2.00]
+  ReML Iteration 11                     :        ...1.345420e+00 [-3.00]
+  ReML Iteration 12                     :        ...3.550753e-02 [-2.75]
+  ReML Iteration 1                      :        ...2.568594e+01 [-2.50]
+  ReML Iteration 2                      :        ...3.101632e+01 [-3.50]
+  ReML Iteration 3                      :        ...1.181250e+01 [-3.25]
+  ReML Iteration 4                      :        ...1.461618e+01 [-4.25]
+  ReML Iteration 5                      :        ...5.279434e+00 [-4.00]
+  ReML Iteration 6                      :        ...6.719780e+00 [-5.00]
+  ReML Iteration 7                      :        ...2.203524e+00 [-4.75]
+  ReML Iteration 8                      :        ...2.845453e+00 [-5.75]
+  ReML Iteration 9                      :        ...1.070862e+00 [-5.50]
+  ReML Iteration 10                     :        ...1.347626e+00 [-6.50]
+  ReML Iteration 11                     :        ...5.033421e-01 [-6.25]
+  ReML Iteration 12                     :        ...6.404667e-01 [-7.25]
+  ReML Iteration 13                     :        ...2.411816e-01 [-7.00]
+  ReML Iteration 14                     :        ...3.037306e-01 [-8.00]
+  ReML Iteration 15                     :        ...1.134924e-01 [-7.75]
+  ReML Iteration 16                     :        ...1.485507e-01 [-8.00]
+  ReML Iteration 17                     :        ...1.122844e-01 [-7.75]
+  ReML Iteration 18                     :        ...1.464536e-01 [-8.00]
+  ReML Iteration 19                     :        ...1.120731e-01 [-7.75]
+  ReML Iteration 20                     :        ...1.453522e-01 [-8.00]
+  ReML Iteration 21                     :        ...1.143088e-01 [-7.75]
+  ReML Iteration 22                     :        ...1.450669e-01 [-8.00]
+  ReML Iteration 23                     :        ...1.137747e-01 [-7.75]
+  ReML Iteration 24                     :        ...1.450973e-01 [-8.00]
+  ReML Iteration 25                     :        ...1.134071e-01 [-7.75]
+  ReML Iteration 26                     :        ...1.424183e-01 [-8.00]
+  ReML Iteration 27                     :        ...1.134976e-01 [-7.75]
+  ReML Iteration 28                     :        ...1.436375e-01 [-8.00]
+  ReML Iteration 29                     :        ...1.115761e-01 [-7.75]
+  ReML Iteration 30                     :        ...1.463776e-01 [-8.00]
+  ReML Iteration 31                     :        ...1.116473e-01 [-7.75]
+  ReML Iteration 32                     :        ...1.461564e-01 [-8.00]
+
+SPM12: spm_spm (v7120)                             14:23:39 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:23:49 - 03/12/2024
+Done
+03-Dec-2024 14:23:49 - Done    'Model estimation'
+03-Dec-2024 14:23:49 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:23:49 - 03/12/2024
+========================================================================
+Contrasts folder                        : .\sub-06\balloonanalogrisktask
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	ESS image  5                    :                   ...computing       ...written ess_0005.nii
+	spm{F} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmF_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	contrast image  8               :                   ...computing       ...written con_0008.nii
+	spm{T} image  8                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',8));TabDat = spm_list('List',xSPM,hReg);;">spmT_0008.nii</a>
+	contrast image  9               :                   ...computing       ...written con_0009.nii
+	spm{T} image  9                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',9));TabDat = spm_list('List',xSPM,hReg);;">spmT_0009.nii</a>
+	contrast image 10               :                   ...computing       ...written con_0010.nii
+	spm{T} image 10                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',10));TabDat = spm_list('List',xSPM,hReg);;">spmT_0010.nii</a>
+	contrast image 11               :                   ...computing       ...written con_0011.nii
+	spm{T} image 11                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',11));TabDat = spm_list('List',xSPM,hReg);;">spmT_0011.nii</a>
+	contrast image 12               :                   ...computing       ...written con_0012.nii
+	spm{T} image 12                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',12));TabDat = spm_list('List',xSPM,hReg);;">spmT_0012.nii</a>
+	contrast image 13               :                   ...computing       ...written con_0013.nii
+	spm{T} image 13                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',13));TabDat = spm_list('List',xSPM,hReg);;">spmT_0013.nii</a>
+	contrast image 14               :                   ...computing       ...written con_0014.nii
+	spm{T} image 14                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',14));TabDat = spm_list('List',xSPM,hReg);;">spmT_0014.nii</a>
+	contrast image 15               :                   ...computing       ...written con_0015.nii
+	spm{T} image 15                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',15));TabDat = spm_list('List',xSPM,hReg);;">spmT_0015.nii</a>
+	contrast image 16               :                   ...computing       ...written con_0016.nii
+	spm{T} image 16                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',16));TabDat = spm_list('List',xSPM,hReg);;">spmT_0016.nii</a>
+	contrast image 17               :                   ...computing       ...written con_0017.nii
+	spm{T} image 17                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-06\balloonanalogrisktask','Ic',17));TabDat = spm_list('List',xSPM,hReg);;">spmT_0017.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:23:51 - 03/12/2024
+03-Dec-2024 14:23:51 - Done    'Contrast Manager'
+03-Dec-2024 14:23:51 - Done
+
+
+Creating batch for participant "sub-07"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:23:55 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:23:56 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:23:56 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:23:56 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:24:02 - 03/12/2024
+03-Dec-2024 14:24:02 - Done    'fMRI model specification'
+03-Dec-2024 14:24:02 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:24:02 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:24:03 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Temporal non-sphericity (47772 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.671679e+01 [+4.25]
+  ReML Iteration 2                      :        ...4.665846e-02 [+4.50]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.998851e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.758825e-04 [+4.50]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...2.723148e+02 [+4.25]
+  ReML Iteration 2                      :        ...5.841127e+00 [+4.50]
+  ReML Iteration 3                      :        ...1.240369e-01 [+4.75]
+  ReML Iteration 4                      :        ...3.929627e-03 [+5.00]
+
+SPM12: spm_spm (v7120)                             14:24:07 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:24:16 - 03/12/2024
+Done
+03-Dec-2024 14:24:16 - Done    'Model estimation'
+03-Dec-2024 14:24:16 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:24:16 - 03/12/2024
+========================================================================
+Contrasts folder                        : .\sub-07\balloonanalogrisktask
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	ESS image  5                    :                   ...computing       ...written ess_0005.nii
+	spm{F} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmF_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	contrast image  8               :                   ...computing       ...written con_0008.nii
+	spm{T} image  8                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',8));TabDat = spm_list('List',xSPM,hReg);;">spmT_0008.nii</a>
+	contrast image  9               :                   ...computing       ...written con_0009.nii
+	spm{T} image  9                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',9));TabDat = spm_list('List',xSPM,hReg);;">spmT_0009.nii</a>
+	contrast image 10               :                   ...computing       ...written con_0010.nii
+	spm{T} image 10                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',10));TabDat = spm_list('List',xSPM,hReg);;">spmT_0010.nii</a>
+	contrast image 11               :                   ...computing       ...written con_0011.nii
+	spm{T} image 11                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',11));TabDat = spm_list('List',xSPM,hReg);;">spmT_0011.nii</a>
+	contrast image 12               :                   ...computing       ...written con_0012.nii
+	spm{T} image 12                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',12));TabDat = spm_list('List',xSPM,hReg);;">spmT_0012.nii</a>
+	contrast image 13               :                   ...computing       ...written con_0013.nii
+	spm{T} image 13                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',13));TabDat = spm_list('List',xSPM,hReg);;">spmT_0013.nii</a>
+	contrast image 14               :                   ...computing       ...written con_0014.nii
+	spm{T} image 14                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',14));TabDat = spm_list('List',xSPM,hReg);;">spmT_0014.nii</a>
+	contrast image 15               :                   ...computing       ...written con_0015.nii
+	spm{T} image 15                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',15));TabDat = spm_list('List',xSPM,hReg);;">spmT_0015.nii</a>
+	contrast image 16               :                   ...computing       ...written con_0016.nii
+	spm{T} image 16                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',16));TabDat = spm_list('List',xSPM,hReg);;">spmT_0016.nii</a>
+	contrast image 17               :                   ...computing       ...written con_0017.nii
+	spm{T} image 17                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-07\balloonanalogrisktask','Ic',17));TabDat = spm_list('List',xSPM,hReg);;">spmT_0017.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:24:18 - 03/12/2024
+03-Dec-2024 14:24:18 - Done    'Contrast Manager'
+03-Dec-2024 14:24:18 - Done
+
+
+Creating batch for participant "sub-08"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:24:23 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:24:23 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:24:23 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:24:23 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:24:30 - 03/12/2024
+03-Dec-2024 14:24:30 - Done    'fMRI model specification'
+03-Dec-2024 14:24:30 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:24:30 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:24:31 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Temporal non-sphericity (45522 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.061028e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.194110e-02 [+4.50]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.390205e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.844708e-06 [+4.50]
+  ReML Block 3                
+  ReML Iteration 1                      :        ...2.630728e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.286280e-02 [+4.50]
+
+SPM12: spm_spm (v7120)                             14:24:35 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          14:24:44 - 03/12/2024
+Done
+03-Dec-2024 14:24:44 - Done    'Model estimation'
+03-Dec-2024 14:24:44 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:24:44 - 03/12/2024
+========================================================================
+Contrasts folder                        : .\sub-08\balloonanalogrisktask
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	ESS image  5                    :                   ...computing       ...written ess_0005.nii
+	spm{F} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmF_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	contrast image  8               :                   ...computing       ...written con_0008.nii
+	spm{T} image  8                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',8));TabDat = spm_list('List',xSPM,hReg);;">spmT_0008.nii</a>
+	contrast image  9               :                   ...computing       ...written con_0009.nii
+	spm{T} image  9                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',9));TabDat = spm_list('List',xSPM,hReg);;">spmT_0009.nii</a>
+	contrast image 10               :                   ...computing       ...written con_0010.nii
+	spm{T} image 10                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',10));TabDat = spm_list('List',xSPM,hReg);;">spmT_0010.nii</a>
+	contrast image 11               :                   ...computing       ...written con_0011.nii
+	spm{T} image 11                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',11));TabDat = spm_list('List',xSPM,hReg);;">spmT_0011.nii</a>
+	contrast image 12               :                   ...computing       ...written con_0012.nii
+	spm{T} image 12                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',12));TabDat = spm_list('List',xSPM,hReg);;">spmT_0012.nii</a>
+	contrast image 13               :                   ...computing       ...written con_0013.nii
+	spm{T} image 13                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',13));TabDat = spm_list('List',xSPM,hReg);;">spmT_0013.nii</a>
+	contrast image 14               :                   ...computing       ...written con_0014.nii
+	spm{T} image 14                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',14));TabDat = spm_list('List',xSPM,hReg);;">spmT_0014.nii</a>
+	contrast image 15               :                   ...computing       ...written con_0015.nii
+	spm{T} image 15                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',15));TabDat = spm_list('List',xSPM,hReg);;">spmT_0015.nii</a>
+	contrast image 16               :                   ...computing       ...written con_0016.nii
+	spm{T} image 16                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',16));TabDat = spm_list('List',xSPM,hReg);;">spmT_0016.nii</a>
+	contrast image 17               :                   ...computing       ...written con_0017.nii
+	spm{T} image 17                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\testset_ds000001\derivatives\stats2\sub-08\balloonanalogrisktask','Ic',17));TabDat = spm_list('List',xSPM,hReg);;">spmT_0017.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          14:24:46 - 03/12/2024
+03-Dec-2024 14:24:46 - Done    'Contrast Manager'
+03-Dec-2024 14:24:46 - Done
+
+
+Creating batch for participant "sub-09"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 14:24:51 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 14:24:51 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     14:24:51 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     14:24:51 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          14:24:57 - 03/12/2024
+03-Dec-2024 14:24:57 - Done    'fMRI model specification'
+03-Dec-2024 14:24:57 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             14:24:57 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              14:24:58 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processingChunk   2/2                             :                  ...processing
+03-Dec-2024 14:24:59 - Failed  'Model estimation'
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spm_est_non_sphericity')" style="font-weight:bold">spm_est_non_sphericity</a>
+Please check your data: There are no significant voxels.
+In file "W:\_SPM_\spm12\spm_est_non_sphericity.m" (v6913), function "spm_est_non_sphericity" at <a href="matlab:opentoline('W:\_SPM_\spm12\spm_est_non_sphericity.m', 208, 0)">line 208</a>.
+In file "W:\_SPM_\spm12\spm_spm.m" (v7120), function "spm_spm" at <a href="matlab:opentoline('W:\_SPM_\spm12\spm_spm.m', 433, 0)">line 433</a>.
+In file "W:\_SPM_\spm12\config\spm_run_fmri_est.m" (v7354), function "spm_run_fmri_est" at <a href="matlab:opentoline('W:\_SPM_\spm12\config\spm_run_fmri_est.m', 36, 0)">line 36</a>.
+
+03-Dec-2024 14:24:59 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             14:24:59 - 03/12/2024
+========================================================================
+Contrasts folder                        : .\sub-09\balloonanalogrisktask
+03-Dec-2024 14:24:59 - Failed  'Contrast Manager'
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spm_run_con')" style="font-weight:bold">spm_run_con</a>
+This model has not been estimated.
+In file "W:\_SPM_\spm12\config\spm_run_con.m" (v7093), function "spm_run_con" at <a href="matlab:opentoline('W:\_SPM_\spm12\config\spm_run_con.m', 34, 0)">line 34</a>.
+
+The following modules did not run:
+Failed: Model estimation
+Failed: Contrast Manager
+
+The SPM job could not be executed.[Warning: Job execution failed. The full log of this run can be found in MATLAB command window, starting with the lines (look for the line showing
+the exact #job as displayed in this error message)
+------------------
+Running job #1
+------------------
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('execute_SPM_job', 'C:\Users\Daniel\Documents\MATLAB\execute_SPM_job.m', 25)" style="font-weight:bold">execute_SPM_job</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\execute_SPM_job.m',25,0)">line 25</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 119)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',119,0)">line 119</a>)] 
