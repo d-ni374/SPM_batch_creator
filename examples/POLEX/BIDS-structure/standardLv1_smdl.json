@@ -1,0 +1,286 @@
+{
+  "BIDSModelVersion": "1.0.0-rc1",
+  "Name": "standard",
+  "Description": "sequential",
+  "Input": {
+    "task": "ratemeper"
+  },
+  "Edges": [
+    {
+      "Source": "",
+      "Destination": "",
+      "Filter": {}
+    }
+  ],
+  "Nodes": [
+    {
+      "Level": "Subject",
+      "Name": "first_level_stats",
+      "GroupBy": [],
+      "Transformations": {
+        "Transformer": "spm12-spec-v1",
+        "Instructions": [
+          {
+            "Name": "fmri_model_specification",
+            "Input": {
+              "BIDSflag": 1,
+              "Participant_ID": [
+                "sub-POL1015",
+                "sub-POL1023",
+                "sub-POL1065",
+                "sub-POL1078",
+                "sub-POL1093",
+                "sub-POL1099",
+                "sub-POL1108",
+                "sub-POL1113",
+                "sub-POL1140",
+                "sub-POL1165",
+                "sub-POL1174",
+                "sub-POL1181",
+                "sub-POL1192",
+                "sub-POL1210",
+                "sub-POL1237",
+                "sub-POL1276"
+              ],
+              "InputDirectory": "F:/POLEX/derivatives/bidspm-preproc",
+              "InputFilterRegexp": "^sub.*_desc-smth6_bold\\.nii",
+              "ImageType": "4d",
+              "OutputDirectory": "F:/POLEX/derivatives/stats",
+              "TimingParameters": {
+                "UnitsForDesign": "secs",
+                "InterscanInterval": 1.75,
+                "MicrotimeResolution": 16,
+                "MicrotimeOnset": 8
+              },
+              "Sessions": [
+                {
+                  "Session_id": "",
+                  "Run_ids": [],
+                  "EventsRegexp": "^task-ratemeper_events\\.tsv$",
+                  "Conditions": [
+                    {
+                      "TrialType": "inclusion",
+                      "TimeModulation": 0,
+                      "ParametricModulations": [
+                        {
+                          "Name": "",
+                          "ColName": "",
+                          "Poly": 1
+                        }
+                      ],
+                      "OrthogonaliseModulations": 0
+                    },
+                    {
+                      "TrialType": "exclusion",
+                      "TimeModulation": 0,
+                      "ParametricModulations": [
+                        {
+                          "Name": "",
+                          "ColName": "",
+                          "Poly": 1
+                        }
+                      ],
+                      "OrthogonaliseModulations": 0
+                    },
+                    {
+                      "TrialType": "mood",
+                      "TimeModulation": 0,
+                      "ParametricModulations": [
+                        {
+                          "Name": "",
+                          "ColName": "",
+                          "Poly": 1
+                        }
+                      ],
+                      "OrthogonaliseModulations": 0
+                    },
+                    {
+                      "TrialType": "instruction",
+                      "TimeModulation": 0,
+                      "ParametricModulations": [
+                        {
+                          "Name": "",
+                          "ColName": "",
+                          "Poly": 1
+                        }
+                      ],
+                      "OrthogonaliseModulations": 0
+                    }
+                  ],
+                  "ConditionsRegexp": "",
+                  "RegressorsRegexp": "^sub.*_task-ratemeper_motion\\.tsv",
+                  "HighPassFilterSecs": 128
+                }
+              ],
+              "FactorialDesign": [
+                {
+                  "Name": "",
+                  "Levels": 0
+                }
+              ],
+              "BasisFunctions": {
+                "Type": "Canonical HRF",
+                "OptionsCanonicalHRF": {
+                  "ModelTimeDerivatives": 0,
+                  "ModelDispersionDerivatives": 0
+                }
+              },
+              "ModelInteractionsVolterra": 0,
+              "GlobalNormalisation": 0,
+              "MaskingThreshold": 0,
+              "ExplicitMask": "W:/_SPM_/masks/brainmask_05.nii",
+              "SerialCorrelations": "AR(1)"
+            },
+            "Output": "SPM.mat"
+          }
+        ]
+      },
+      "Model": {
+        "HRF": {
+          "Model": "spm",
+          "Variables": [
+            "Sn(1) inclusion*bf(1)",
+            "Sn(1) exclusion*bf(1)",
+            "Sn(1) mood*bf(1)",
+            "Sn(1) instruction*bf(1)"
+          ]
+        },
+        "Type": "glm",
+        "X": [
+          "Sn(1) inclusion*bf(1)",
+          "Sn(1) exclusion*bf(1)",
+          "Sn(1) mood*bf(1)",
+          "Sn(1) instruction*bf(1)",
+          "Sn(1) trans_x",
+          "Sn(1) trans_y",
+          "Sn(1) trans_z",
+          "Sn(1) rot_x",
+          "Sn(1) rot_y",
+          "Sn(1) rot_z",
+          "Sn(1) constant"
+        ],
+        "Options": {
+          "HighPassFilterCutoffHz": 0.0078125
+        },
+        "Software": [
+          {
+            "SPM": {
+              "WriteResiduals": 0,
+              "Method": {
+                "Type": "Classical"
+              },
+              "DeleteExistingContrasts": 0,
+              "ReplicateOverSessions": "Dont replicate"
+            }
+          }
+        ]
+      },
+      "Contrasts": [
+        {
+          "Name": "inclusion vs exclusion",
+          "ConditionList": [
+            "Sn(1) inclusion*bf(1)",
+            "Sn(1) exclusion*bf(1)"
+          ],
+          "Weights": [
+            1,
+            -1
+          ],
+          "Test": "t"
+        },
+        {
+          "Name": "exclusion vs inclusion",
+          "ConditionList": [
+            "Sn(1) inclusion*bf(1)",
+            "Sn(1) exclusion*bf(1)"
+          ],
+          "Weights": [
+            -1,
+            1
+          ],
+          "Test": "t"
+        },
+        {
+          "Name": "var",
+          "ConditionList": [
+            "Sn(1) inclusion*bf(1)",
+            "Sn(1) exclusion*bf(1)",
+            "Sn(1) mood*bf(1)",
+            "Sn(1) instruction*bf(1)",
+            "Sn(1) trans_x",
+            "Sn(1) trans_y",
+            "Sn(1) trans_z",
+            "Sn(1) rot_x",
+            "Sn(1) rot_y",
+            "Sn(1) rot_z",
+            "Sn(1) constant"
+          ],
+          "Weights": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "Test": "F"
+        }
+      ],
+      "DummyContrasts": {
+        "Test": "t",
+        "Contrasts": [
+          "Sn(1) inclusion*bf(1)",
+          "Sn(1) exclusion*bf(1)",
+          "Sn(1) mood*bf(1)",
+          "Sn(1) instruction*bf(1)"
+        ]
+      }
+    }
+  ]
+}

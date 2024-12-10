@@ -1,0 +1,533 @@
+Validation OK.
+Skipping extended validation for node 1
+Design type: 1
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Completed                               :          09:16:31 - 04/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Completed                               :          09:16:31 - 04/12/2024
+Validating Edge 1
+
+Creating batch for contrast "inclusion vs exclusion".
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 09:16:35 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 09:16:35 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          09:16:35 - 04/12/2024
+04-Dec-2024 09:16:35 - Done    'Factorial design specification'
+04-Dec-2024 09:16:35 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             09:16:35 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          09:16:38 - 04/12/2024
+Done
+04-Dec-2024 09:16:38 - Done    'Model estimation'
+04-Dec-2024 09:16:38 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             09:16:38 - 04/12/2024
+========================================================================
+Contrasts folder                        :       .\inclusion_vs_exclusion
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\standard\inclusion_vs_exclusion','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\standard\inclusion_vs_exclusion','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          09:16:38 - 04/12/2024
+04-Dec-2024 09:16:38 - Done    'Contrast Manager'
+04-Dec-2024 09:16:38 - Done
+
+
+Creating batch for contrast "exclusion vs inclusion".
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 09:16:41 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 09:16:41 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          09:16:41 - 04/12/2024
+04-Dec-2024 09:16:41 - Done    'Factorial design specification'
+04-Dec-2024 09:16:41 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             09:16:41 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          09:16:44 - 04/12/2024
+Done
+04-Dec-2024 09:16:44 - Done    'Model estimation'
+04-Dec-2024 09:16:44 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             09:16:44 - 04/12/2024
+========================================================================
+Contrasts folder                        :       .\exclusion_vs_inclusion
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\standard\exclusion_vs_inclusion','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\standard\exclusion_vs_inclusion','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          09:16:44 - 04/12/2024
+04-Dec-2024 09:16:44 - Done    'Contrast Manager'
+04-Dec-2024 09:16:44 - Done
+
+Validation OK.
+Skipping extended validation for node 1
+Design type: 2
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          09:33:03 - 04/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          09:33:03 - 04/12/2024
+Validating Edge 1
+
+Creating batch for contrast "inclusion vs exclusion".
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 09:33:07 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 09:33:07 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          09:33:07 - 04/12/2024
+04-Dec-2024 09:33:07 - Done    'Factorial design specification'
+04-Dec-2024 09:33:07 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             09:33:07 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          09:33:10 - 04/12/2024
+Done
+04-Dec-2024 09:33:10 - Done    'Model estimation'
+04-Dec-2024 09:33:10 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             09:33:10 - 04/12/2024
+========================================================================
+Contrasts folder                        :       .\inclusion_vs_exclusion
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\two_sample\inclusion_vs_exclusion','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\two_sample\inclusion_vs_exclusion','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          09:33:10 - 04/12/2024
+04-Dec-2024 09:33:10 - Done    'Contrast Manager'
+04-Dec-2024 09:33:10 - Done
+
+
+Creating batch for contrast "exclusion vs inclusion".
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 09:33:13 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 09:33:13 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          09:33:14 - 04/12/2024
+04-Dec-2024 09:33:14 - Done    'Factorial design specification'
+04-Dec-2024 09:33:14 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             09:33:14 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          09:33:17 - 04/12/2024
+Done
+04-Dec-2024 09:33:17 - Done    'Model estimation'
+04-Dec-2024 09:33:17 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             09:33:17 - 04/12/2024
+========================================================================
+Contrasts folder                        :       .\exclusion_vs_inclusion
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\two_sample\exclusion_vs_inclusion','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\two_sample\exclusion_vs_inclusion','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          09:33:17 - 04/12/2024
+04-Dec-2024 09:33:17 - Done    'Contrast Manager'
+04-Dec-2024 09:33:17 - Done
+
+Validation OK.
+Skipping extended validation for node 1
+Design type: 3
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          10:10:33 - 04/12/2024
+Validating Edge 1
+
+Creating batch for second level design.
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 10:10:37 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 10:10:37 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          10:10:39 - 04/12/2024
+04-Dec-2024 10:10:39 - Done    'Factorial design specification'
+04-Dec-2024 10:10:40 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             10:10:40 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          10:10:43 - 04/12/2024
+Done
+04-Dec-2024 10:10:43 - Done    'Model estimation'
+04-Dec-2024 10:10:43 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             10:10:43 - 04/12/2024
+========================================================================
+Contrasts folder                        :      .\group_stats\paired_test
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\paired_test','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\paired_test','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          10:10:44 - 04/12/2024
+04-Dec-2024 10:10:44 - Done    'Contrast Manager'
+04-Dec-2024 10:10:44 - Done
+
+Validation OK.
+Skipping extended validation for node 1
+Design type: 4
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          10:53:41 - 04/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          10:53:41 - 04/12/2024
+Validating Edge 1
+
+Creating batch for contrast "inclusion vs exclusion".
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 10:53:45 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 10:53:45 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          10:53:52 - 04/12/2024
+04-Dec-2024 10:53:52 - Done    'Factorial design specification'
+04-Dec-2024 10:53:52 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             10:53:52 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          10:53:55 - 04/12/2024
+Done
+04-Dec-2024 10:53:55 - Done    'Model estimation'
+04-Dec-2024 10:53:55 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             10:53:55 - 04/12/2024
+========================================================================
+Contrasts folder                        :       .\inclusion_vs_exclusion
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\multireg\inclusion_vs_exclusion','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\multireg\inclusion_vs_exclusion','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          10:53:55 - 04/12/2024
+04-Dec-2024 10:53:55 - Done    'Contrast Manager'
+04-Dec-2024 10:53:55 - Done
+
+
+Creating batch for contrast "exclusion vs inclusion".
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 10:53:59 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 10:53:59 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          10:54:00 - 04/12/2024
+04-Dec-2024 10:54:00 - Done    'Factorial design specification'
+04-Dec-2024 10:54:00 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             10:54:00 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          10:54:02 - 04/12/2024
+Done
+04-Dec-2024 10:54:02 - Done    'Model estimation'
+04-Dec-2024 10:54:02 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             10:54:03 - 04/12/2024
+========================================================================
+Contrasts folder                        :       .\exclusion_vs_inclusion
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\multireg\exclusion_vs_inclusion','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\multireg\exclusion_vs_inclusion','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          10:54:03 - 04/12/2024
+04-Dec-2024 10:54:03 - Done    'Contrast Manager'
+04-Dec-2024 10:54:03 - Done
+
+Validation OK.
+Skipping extended validation for node 1
+Design type: 5
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          11:19:44 - 04/12/2024
+Validating Edge 1
+
+Creating batch for second level design.
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 11:19:47 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 11:19:47 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          11:19:48 - 04/12/2024
+04-Dec-2024 11:19:48 - Done    'Factorial design specification'
+04-Dec-2024 11:19:48 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             11:19:48 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          11:19:50 - 04/12/2024
+Done
+04-Dec-2024 11:19:50 - Done    'Model estimation'
+04-Dec-2024 11:19:50 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             11:19:50 - 04/12/2024
+========================================================================
+Contrasts folder                        :            .\group_stats\ANOVA
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVA','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVA','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVA','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVA','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVA','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVA','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          11:19:51 - 04/12/2024
+04-Dec-2024 11:19:51 - Done    'Contrast Manager'
+04-Dec-2024 11:19:51 - Done
+
+Validation OK.
+Skipping extended validation for node 1
+Design type: 6
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          11:31:19 - 04/12/2024
+Validating Edge 1
+
+Creating batch for second level design.
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 11:31:23 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 11:31:23 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          11:31:27 - 04/12/2024
+04-Dec-2024 11:31:27 - Done    'Factorial design specification'
+04-Dec-2024 11:31:27 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             11:31:27 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          11:31:31 - 04/12/2024
+Done
+04-Dec-2024 11:31:31 - Done    'Model estimation'
+04-Dec-2024 11:31:31 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             11:31:31 - 04/12/2024
+========================================================================
+Contrasts folder                        :      .\group_stats\ANOVAwithin
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVAwithin','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVAwithin','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\ANOVAwithin','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmT_0003.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          11:31:32 - 04/12/2024
+04-Dec-2024 11:31:32 - Done    'Contrast Manager'
+04-Dec-2024 11:31:32 - Done
+
+Validation OK.
+Skipping extended validation for node 1
+Design type: 7
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          11:37:06 - 04/12/2024
+Validating Edge 1
+
+Creating batch for second level design.
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 11:37:10 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 11:37:10 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          11:37:10 - 04/12/2024
+04-Dec-2024 11:37:10 - Done    'Factorial design specification'
+04-Dec-2024 11:37:10 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             11:37:10 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          11:37:13 - 04/12/2024
+Done
+04-Dec-2024 11:37:13 - Done    'Model estimation'
+04-Dec-2024 11:37:13 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             11:37:13 - 04/12/2024
+========================================================================
+Contrasts folder                        :    .\group_stats\fullFactorial
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\fullFactorial','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\derivatives\group_stats\fullFactorial','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          11:37:13 - 04/12/2024
+04-Dec-2024 11:37:13 - Done    'Contrast Manager'
+04-Dec-2024 11:37:13 - Done
+
+Validation OK.
+Skipping extended validation for node 1
+Design type: 8
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          11:51:34 - 04/12/2024
+[Warning: No contrasts defined in the json file.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_contrasts', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_contrasts.m', 70)" style="font-weight:bold">json_validator_bids_contrasts</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_contrasts.m',70,0)">line 70</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m', 187)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\json_validator_bids_values.m',187,0)">line 187</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('C:\Users\Daniel\Documents\MATLAB\SPM_batch_creator.m',49,0)">line 49</a>)] 
+Validating Edge 1
+
+Creating batch for second level design.
+Defaults settings have been modified by file(s):
+  C:\Users\Daniel\Git\bidspm\src\defaults\spm_my_defaults.m
+Modified fields: ui mat stats realign 
+
+
+------------------------------------------------------------------------
+04-Dec-2024 11:51:38 - Running job #1
+------------------------------------------------------------------------
+04-Dec-2024 11:51:38 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          11:51:40 - 04/12/2024
+04-Dec-2024 11:51:40 - Done    'Factorial design specification'
+04-Dec-2024 11:51:40 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             11:51:40 - 04/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          11:51:43 - 04/12/2024
+Done
+04-Dec-2024 11:51:43 - Done    'Model estimation'
+04-Dec-2024 11:51:43 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             11:51:43 - 04/12/2024
+========================================================================
+Contrasts folder                        :            .\flexibleFactorial
+Completed                               :          11:51:43 - 04/12/2024
+04-Dec-2024 11:51:43 - Done    'Contrast Manager'
+04-Dec-2024 11:51:43 - Done
+
