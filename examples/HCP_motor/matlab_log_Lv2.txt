@@ -1,0 +1,172 @@
+Validation OK.
+Skipping extended validation for node 1
+Design type: 1
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          11:13:42 - 03/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          11:13:42 - 03/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          11:13:43 - 03/12/2024
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          11:13:43 - 03/12/2024
+Validating Edge 1
+
+Creating batch for contrast "left vs right".
+
+
+------------------------------------------------------------------------
+03-Dec-2024 11:13:46 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 11:13:46 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          11:13:47 - 03/12/2024
+03-Dec-2024 11:13:47 - Done    'Factorial design specification'
+03-Dec-2024 11:13:47 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             11:13:47 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          11:14:30 - 03/12/2024
+Done
+03-Dec-2024 11:14:30 - Done    'Model estimation'
+03-Dec-2024 11:14:30 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             11:14:30 - 03/12/2024
+========================================================================
+Contrasts folder                        :     .\defaultLv1\left_vs_right
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\HCP\MOTOR\stats\default_lv1\group_stats\defaultLv1\left_vs_right','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\HCP\MOTOR\stats\default_lv1\group_stats\defaultLv1\left_vs_right','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          11:14:32 - 03/12/2024
+03-Dec-2024 11:14:32 - Done    'Contrast Manager'
+03-Dec-2024 11:14:32 - Done
+
+
+Creating batch for contrast "hand vs foot".
+
+
+------------------------------------------------------------------------
+03-Dec-2024 11:14:35 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 11:14:35 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          11:14:36 - 03/12/2024
+03-Dec-2024 11:14:36 - Done    'Factorial design specification'
+03-Dec-2024 11:14:36 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             11:14:36 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          11:15:20 - 03/12/2024
+Done
+03-Dec-2024 11:15:20 - Done    'Model estimation'
+03-Dec-2024 11:15:20 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             11:15:20 - 03/12/2024
+========================================================================
+Contrasts folder                        :      .\defaultLv1\hand_vs_foot
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\HCP\MOTOR\stats\default_lv1\group_stats\defaultLv1\hand_vs_foot','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\HCP\MOTOR\stats\default_lv1\group_stats\defaultLv1\hand_vs_foot','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          11:15:22 - 03/12/2024
+03-Dec-2024 11:15:22 - Done    'Contrast Manager'
+03-Dec-2024 11:15:22 - Done
+
+
+Creating batch for contrast "limbs vs tongue".
+
+
+------------------------------------------------------------------------
+03-Dec-2024 11:15:25 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 11:15:25 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          11:15:26 - 03/12/2024
+03-Dec-2024 11:15:26 - Done    'Factorial design specification'
+03-Dec-2024 11:15:26 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             11:15:26 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          11:16:11 - 03/12/2024
+Done
+03-Dec-2024 11:16:11 - Done    'Model estimation'
+03-Dec-2024 11:16:11 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             11:16:11 - 03/12/2024
+========================================================================
+Contrasts folder                        :   .\defaultLv1\limbs_vs_tongue
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\HCP\MOTOR\stats\default_lv1\group_stats\defaultLv1\limbs_vs_tongue','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\HCP\MOTOR\stats\default_lv1\group_stats\defaultLv1\limbs_vs_tongue','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          11:16:13 - 03/12/2024
+03-Dec-2024 11:16:13 - Done    'Contrast Manager'
+03-Dec-2024 11:16:13 - Done
+
+
+Creating batch for contrast "task".
+
+
+------------------------------------------------------------------------
+03-Dec-2024 11:16:16 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 11:16:16 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          11:16:17 - 03/12/2024
+03-Dec-2024 11:16:17 - Done    'Factorial design specification'
+03-Dec-2024 11:16:17 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             11:16:17 - 03/12/2024
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          11:17:02 - 03/12/2024
+Done
+03-Dec-2024 11:17:02 - Done    'Model estimation'
+03-Dec-2024 11:17:02 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             11:17:02 - 03/12/2024
+========================================================================
+Contrasts folder                        :  .\group_stats\defaultLv1\task
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\HCP\MOTOR\stats\default_lv1\group_stats\defaultLv1\task','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\HCP\MOTOR\stats\default_lv1\group_stats\defaultLv1\task','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          11:17:03 - 03/12/2024
+03-Dec-2024 11:17:03 - Done    'Contrast Manager'
+03-Dec-2024 11:17:03 - Done
+
