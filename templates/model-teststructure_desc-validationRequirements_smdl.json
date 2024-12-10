@@ -1,0 +1,460 @@
+{
+    "BIDSModelVersion": "REQUIRED string (e.g. 1.0.0-rc1)",
+    "Name": "REQUIRED string : name of the model (subfolder within the second level output directory will be created; e.g. nonwordrepetition)",
+    "Description": "OPTIONAL string (concise verbal description of the model)",
+    "Input": {
+        "non-field_INFO_Input": "OPTIONAL object: entity value pairs of core BIDS spec filter the input data; only 'task' is supported at this stage; input files need BIDS-compliant filenames; e.g.:",
+        "task": "motor"
+    },
+    "Nodes": [
+        {
+            "non-field_INFO_Nodes": "REQUIRED array of object; each object describes one level of modeling",
+            "Level": "REQUIRED string: CHECK Run|Session|Subject|Dataset",
+            "Name": "REQUIRED string: CHECK for unique node name (e.g. FirstLevel)",
+            "GroupBy": ["list of string (e.g. subject)"],
+            "Transformations": {
+                "non-field_INFO_Transformations": "OPTIONAL object: specification of transformations to be applied to variables before the construction of the model",
+                "Transformer": "required string: name of the specification of an instruction set",
+                "Instructions": [
+                    {
+                        "non-field_INFO_Instructions": "required list of object: sequence of instructions to pass to an implementation of Transformer; the format of these instructions is determined by the Transformer",
+                        "Name": "required string: name of instruction (the instruction input described below is called 'fmri_model_specification')",
+                        "Input": {
+                            "non-field_INFO_Input": "all input parameters needed for the fMRI model specification have to be given in this section in order to create the design matrix (needed for contrast definition)",
+                            "BIDSflag": "required number: CHECK [0|1] (=no/yes); flag to indicate whether the input data is BIDS-compliant",
+                            "InputDirectory": "required string: CHECK for valid directory [slash/backslash seem both ok] (e.g. F:/ds000001/derivatives/preproc/)",
+                            "InputFilterRegexp": "required string: regular expression (e.g. ^s6w.*(nii|img)$)",
+                            "ImageType": "required string: CHECK [3d|4d|unknown]",
+                            "Participant_ID": ["required (list of) string: should be GENERATED from participants subfolder names"],
+                            "OutputDirectory": "required string: CHECK for directory (e.g. F:/ds000001/derivatives/stats/)",
+                            "TimingParameters": {
+                                "UnitsForDesign": "required string: CHECK secs|scans",
+                                "InterscanInterval": "required number: CHECK >0 (e.g. 2.46)",
+                                "MicrotimeResolution": "required number: CHECK >0 (e.g. 16)",
+                                "MicrotimeOnset": "required number: CHECK >0 (e.g. 8)"
+                            },
+                            "Sessions": [
+                                {
+                                    "non-field_INFO_Sessions": "required list of object",
+                                    "Session_id": "required string: CHECK for uniqueness within Sessions; Session_id is used to identify sub-folder containing the images: must be at the end of the folder name",
+                                    "Run_ids": ["optional list of string; Run_ids are used to identify the images; must be part of the file names or at the end of the folder name (separate folders for each run)"],
+                                    "EventsRegexp": "required string (e.g. ^events.tsv$): CHECK file validity",
+                                    "Conditions": [
+                                        {
+                                            "non-field_INFO_Conditions": "optional list of object (required if MultipleConditions is empty); conditions may be DERIVED from Presentation files",
+                                            "TrialType": "required string: CHECK column 'trial_type' in 'events.tsv'",
+                                            "TimeModulation": "required number: CHECK [0-6], corresponds to order of time modulation; 0 for no time modulation",
+                                            "non-field_INFO_ParametricModulations": "optional list of object describing the parametric variates used for modeling the interaction between the trial and the variate",
+                                            "ParametricModulations": [{"Name": "required string", "ColName": "required string; CHECK column name in 'events.tsv'", "Poly": "required number: CHECK [1-6], corresponds to order of polynomial expansion"}],
+                                            "OrthogonaliseModulations": "required number CHECK [0|1] (=no/yes)"
+                                        }
+                                    ],
+                                    "ConditionsRegexp": "optional string (required if Conditions is empty): CHECK for valid .mat files for all subjects & sessions (-> files are expected to be in raw|preproc folders; additional validation of file contents)",
+                                    "RegressorsRegexp": "optional string: regular expression (e.g. ^rp.*(txt|mat)$) (-> files are expected to be in the preproc folders; additional validation of file contents)",
+                                    "HighPassFilterSecs": "required number: CHECK >0 (e.g. 128)"
+                                }
+                            ],
+                            "FactorialDesign": [
+                                {
+                                    "non-field_INFO_FactorialDesign": "optional list of object; define factors that will be compared during further analysis (contrasts); the order of the factors is important - the factor to be specified first is the one that “changes slowest”; example: i.e. as we go through the list of conditions N1, N2, F1, F2 the factor “repetition” changes every condition and the factor “fame” changes every other condition; so “Fam” changes slowest and is entered first.",
+                                    "Name": "required string (e.g. Rep)",
+                                    "Levels": "required number: CHECK >0 (e.g. 2)"
+                                }
+                            ],
+                            "BasisFunctions": {
+                                "non-field_INFO_BasisFunctions": "required object (specification of basis functions to model the hemodynamic response)",
+                                "Type": "required string: CHECK (Canonical HRF|Fourier Set|Fourier Set (Hanning)|Gamma Functions|Finite Impulse Response|None) + CHECK if consistent with Model.HRF",
+                                "OptionsCanonicalHRF": {
+                                    "non-field_INFO_OptionsCanonicalHRF": "required if Type = Canonical HRF",
+                                    "ModelTimeDerivatives": "required number: CHECK [0|1] (=no/yes)",
+                                    "ModelDispersionDerivatives": "required number: CHECK [0|1] (=no/yes); SPM only supports ModelDispersionDerivatives when ModelTimeDerivatives is activated as well"
+                                },
+                                "OptionsOtherBasisFunctions": {
+                                    "non-field_INFO_OptionsOtherBasisFunctions": "required if Type is not Canonical HRF|None",
+                                    "WindowLengthSecs": "required number CHECK >0; post-stimulus window length in s; not needed for Canonical HRF|None",
+                                    "NumberBasisFunctions": "required number CHECK >0; named Order in software; not needed for Canonical HRF|None"
+                                }
+                            },
+                            "ModelInteractionsVolterra": "required number: CHECK [0|1] (=no/yes); ATTENTION: different assignment in software [1|2]; 1...do not model interactions, 2...model interactions",
+                            "GlobalNormalisation": "required number: CHECK [0|1]; corresponds to SPM options [None|Scaling]",
+                            "MaskingThreshold": "required number: CHECK >=0",
+                            "ExplicitMask": "optional string: CHECK for valid .nii file (e.g. W:/_SPM_/masks/brainmask_05.nii)",
+                            "SerialCorrelations": "required string: CHECK [none|AR(1)|FAST]; AR(1)...autoregressive, FAST...FAST-model"
+                        },
+                        "Script": "optional string: script executing the Instruction",
+                        "Output": "optional (list of) string: output of the Instruction"
+                    },
+                    {
+                        "Name": "required string: name of instruction",
+                        "Input": "required object: needed input for this Instruction (e.g. output of previous Instruction)",
+                        "Script": "optional string: script executing the Instruction",
+                        "Output": "optional (list of) string: output of the Instruction"
+                    }
+                ]
+            },
+            "Model": {
+                "non-field_INFO_Model": "REQUIRED object: specifies the statistical model to be estimated",
+                "Type": "REQUIRED string: CHECK glm|meta",
+                "X": ["REQUIRED list of string|1 (=regressors + confounders + intercept) including every column of the design matrix e.g.:","Sn(1) ChoiceLeft","Sn(1) ChoiceRight","Sn(1) noChoice","Sn(1) R1","Sn(1) constant"],
+                "HRF": {
+                    "non-field_INFO_HRF": "optional object: specification of the hemodynamic response function (HRF)",
+                    "Model": "required string: CHECK (spm|spm + derivative|spm + derivative + dispersion|glover|glover + derivative|glover + derivative + dispersion|fir) (e.g. spm + derivative)",
+                    "Variables": ["required list of string: names of variables to which HRF applies (e.g. ChoiceLeft, ChoiceRight), CHECK for consistency with X"],
+                    "Parameters": "optional object: key value pairs of parameters to pass to the estimator; not supported by SPM"
+                },
+                "Software": [
+                    {
+                        "non-field_INFO_Software": "optional list of object: specification of any software-specific estimation parameters; each value in the list is an object, with the key being the name of the software package (FSL, SPM, etc.) and the value being an object containing software-specific parameters",
+                        "SPM": {
+                            "WriteResiduals": "required number: CHECK [0|1] (=no/yes)",
+                            "Method": {
+                                "Type": "required string: CHECK [Classical|Bayesian 1st-level|Bayesian 2nd-level]",
+                                "OptionsBayesian1": {"comment": "not implemented yet; can be added if needed"}
+                            },
+                            "DeleteExistingContrasts": "required number: CHECK [0|1] (=no/yes)",
+                            "ReplicateOverSessions": "required string: CHECK [Dont replicate|Replicate|Replicate&Scale|Create per session|Both: Replicate + Create per session| Both: Replicate&Scale + Create per session] -> batch options: [none|repl|replsc|sess|both|bothsc]"
+                        }
+                    }
+                ]
+            },
+            "Contrasts": [
+                {
+                    "non-field_INFO_Contrasts": "optional list of object (specify t and F contrasts)",
+                    "Name": "required string (e.g. ChoiceLeft): CHECK for uniqueness of name within contrasts",
+                    "ConditionList": ["required array of string: CHECK for order with respect to conditions; e.g. ChoiceLeft", "ChoiceRight"],
+                    "Weights": ["optional array of number (1D for t|F, 2D for F, e.g. [1, 0] for t|F or [[0, 1],[2, 3]] for F); if empty unit weights are assigned to all variables"],
+                    "Test": "required string: CHECK [t|F|skip]"
+                },
+                {
+                    "Name": "ChoiceRight",
+                    "ConditionList": ["ChoiceLeft", "ChoiceRight"],
+                    "Weights": [0, 1],
+                    "Test": "t"
+                },
+                {
+                    "Name": "left vs right",
+                    "ConditionList": ["ChoiceLeft", "ChoiceRight"],
+                    "Weights": [-1, 1],
+                    "Test": "t"
+                },
+                {
+                    "Name": "task",
+                    "ConditionList": ["ChoiceLeft", "ChoiceRight"],
+                    "Weights": [1, 1],
+                    "Test": "t"
+                },
+                {
+                    "Name": "some F-contrast",
+                    "ConditionList": ["ChoiceLeft", "ChoiceRight"],
+                    "Weights": [[1, 0],[0, 1]],
+                    "Test": "F"
+                }
+            ],
+            "DummyContrasts": {
+                "non-field_INFO_DummyContrasts": "optional list of object (specify dummy contrasts with weight 1 for given names and 0 for all other variables)",
+                "Test": "required string: CHECK [t|skip]",
+                "Contrasts": ["optional list of string: CHECK if present in X; e.g. ChoiceLeft", "ChoiceRight"]
+            }
+        },
+        {
+            "Level": "REQUIRED string: CHECK Run|Session|Subject|Dataset",
+            "Name": "REQUIRED string: CHECK for unique node name (e.g. SecondLevel)",
+            "GroupBy": ["list of string (e.g. subject)"],
+            "Transformations": {
+                "non-field_INFO_Transformations": "OPTIONAL object: specification of transformations to be applied to variables before the construction of the model",
+                "Transformer": "required string: name of the specification of an instruction set",
+                "Instructions": [
+                    {
+                        "non-field_INFO_Instructions": "required list of object: sequence of instructions to pass to an implementation of Transformer; the format of these instructions is determined by the Transformer",
+                        "Name": "required string: name of instruction (the instruction input described below is called 'factorial_design_specification')",
+                        "Input": {
+                            "non-field_INFO_Input": "all input parameters needed for the factorial design specification have to be given in this section in order to create the design matrix (needed for contrast definition)",
+                            "MainProjectFolder": "required string: CHECK for valid directory [slash/backslash seem both ok] (e.g. F:/ds000001/)",
+                            "OutputDirectory": "required (list of?) string: CHECK for directory (e.g. F:/ds000001/derivatives/group_stats/)",
+                            "Design": {
+                                "Type": "required string: CHECK OneSampleTTest|TwoSampleTTest|PairedTTest|MultipleRegression|OneWayANOVA|OneWayANOVA_WithinSubject|FullFactorial|FlexibleFactorial",
+                                "non-field_INFO_Type": "additional CHECK if respective Input_sometest object is existent",
+                                "InputOneSampleTTest": {
+                                    "Scans": {
+                                        "non-field_INFO_Scans": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                        "ContrastsToProcess": ["required (list of) string: CHECK if contrast names are defined in first level node"],
+                                        "InputFileType": "required string: CHECK [con|beta|other]",
+                                        "InputFilterRegexp": ["optional (list of) string: CHECK regular expression (only required if InputFileType is 'other', e.g. ^contrast1.*nii$)"],
+                                        "non-field_INFO_InputFilterRegexp": "the list must have the same length (-> CHECK) as the list of ContrastsToProcess and the order must match"
+                                    }
+                                },
+                                "InputTwoSampleTTest": {
+                                    "Scans": {
+                                        "non-field_INFO_Scans": "the groups must be identifyable either by the Participant_IDs or the InputFilterRegexp",
+                                        "ContrastsToProcess": ["required (list of) string: CHECK if contrast names are defined in first level node"],
+                                        "InputFileType": "required string: CHECK [con|beta|other]",
+                                        "SubjectsGroup1": ["required list of string: CHECK if subset of first level node subjects (i.e. Nodes(i).Transformations.Instructions.Input.Participant_ID)"],
+                                        "non-field_INFO_SubjectsGroup1": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                        "InputFilterRegexpGroup1": ["optional (list of) string: CHECK regular expression (only required if InputFileTypeGroup1 is 'other', e.g. ^contrast1.*nii$)"],
+                                        "non-field_INFO_InputFilterRegexpGroup1": "the list must have the same length (-> CHECK) as the list of ContrastsToProcess and the order must match",
+                                        "SubjectsGroup2": ["required list of string: CHECK if subset of first level node subjects (i.e. Nodes(i).Transformations.Instructions.Input.Participant_ID)"],
+                                        "non-field_INFO_SubjectsGroup2": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                        "InputFilterRegexpGroup2": ["optional (list of) string: CHECK regular expression (only required if InputFileTypeGroup2 is 'other', e.g. ^contrast1.*nii$)"],
+                                        "non-field_INFO_InputFilterRegexpGroup2": "the list must have the same length (-> CHECK) as the list of ContrastsToProcess and the order must match"
+                                    },
+                                    "Independence": "required number: CHECK [0|1] (=no/yes); ATTENTION: in the software the indicator is inverted (indicating dependence)",
+                                    "Variance": "required string: CHECK equal|unequal; by default, the measurements in each level are assumed to have unequal variance; 0...equal, 1...unequal",
+                                    "GrandMeanScaling": "required number: CHECK [0|1] (=no/yes); specify >grand mean scaling by factor<",
+                                    "non-field_INFO_GrandMeanScaling": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                    "non-field_INFO_ANCOVA": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                    "ANCOVA": "required number: CHECK [0|1] (=no/yes); specify >ANCOVA-by-factor< regressors"
+                                },
+                                "InputPairedTTest": {
+                                    "non-field_INFO_InputPairedTTest": "pairs of images must be given in separate objects",
+                                    "Scans": [
+                                        {
+                                            "non-field_INFO_Scans": "list of object; each contains a pair of images; for more compact representation, subjects and contrasts can be defined in arrays",
+                                            "non-field_INFO2_Scans": "the arrays 'Subjects1' & 'Contrasts1' belong to the first image of a pair, 'Subjects2' & 'Contrasts2' to the second image",
+                                            "non-field_INFO3_Scans": "the first entry in 'Subjects1' array is paired with the first entry in 'Subjects2' array and so on (same for 'Contrasts1' & 'Contrasts2')",
+                                            "non-field_INFO4_Scans": "the images must have the same image dimensions, orientation, voxel size etc.",
+                                            "InputFileType1": "required string: CHECK [con|beta|other] (file type for first image of a pair)",
+                                            "InputFilterRegexp1": ["optional (list of) string: CHECK regular expression (only required if InputFileType1 is 'other', for first image of a pair, e.g. ^contrast1.*nii$)"],
+                                            "non-field_INFO_InputFilterRegexp1": "the list must have the same length (-> CHECK) as the list of Contrasts1 and the order must match",
+                                            "InputFileType2": "required string: CHECK [con|beta|other] (file type for second image of a pair)",
+                                            "InputFilterRegexp2": ["optional (list of) string: CHECK regular expression (only required if InputFileType2 is 'other', for second image of a pair, e.g. ^contrast1.*nii$)"],
+                                            "non-field_INFO_InputFilterRegexp2": "the list must have the same length (-> CHECK) as the list of Contrasts2 and the order must match",
+                                            "Subjects1": ["required list of string: CHECK if subset of first level node subjects (i.e. Nodes(i).Transformations.Instructions.Input.Participant_ID)"],
+                                            "Subjects2": ["required list of string: CHECK if subset of first level node subjects (i.e. Nodes(i).Transformations.Instructions.Input.Participant_ID)"],
+                                            "Contrasts1": ["required (list of) string: CHECK if contrast names are defined in first level node"],
+                                            "Contrasts2": ["required (list of) string: CHECK if contrast names are defined in first level node"]
+                                        }
+                                    ],
+                                    "GrandMeanScaling": "required number: CHECK [0|1] (=no/yes); specify >grand mean scaling by factor<",
+                                    "non-field_INFO_GrandMeanScaling": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                    "non-field_INFO_ANCOVA": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                    "ANCOVA": "required number: CHECK [0|1] (=no/yes); specify >ANCOVA-by-factor< regressors"
+                                },
+                                "InputMultipleRegression": {
+                                    "Scans": {
+                                        "non-field_INFO_Scans": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                        "ContrastsToProcess": ["required (list of) string: CHECK if contrast names are defined in first level node"],
+                                        "InputFileType": "required string: CHECK [con|beta|other]",
+                                        "InputFilterRegexp": ["optional (list of) string: CHECK regular expression (only required if InputFileType is 'other', e.g. ^contrast1.*nii$)"],
+                                        "non-field_INFO_InputFilterRegexp": "the list must have the same length (-> CHECK) as the list of ContrastsToProcess and the order must match"
+                                    },
+                                    "Covariates": [
+                                        {
+                                            "non-field_INFO_Covariates": "required list of object; definition of covariates",
+                                            "CovariatesFileRegexp": "required string: CHECK regular expression (e.g. ^participants.tsv$)",
+                                            "Name": "required string: name of covariate",
+                                            "ColName": "required string; CHECK column name in 'participants.tsv'",
+                                            "Centering": "required string: CHECK Overall mean|No centering; ATTENTION: assignment in software [1|5]; 1...overall mean, 5...no centering"
+                                        }
+                                    ],
+                                    "Intercept": "required number: CHECK [0|1] (=no/yes)"
+                                },
+                                "InputOneWayANOVA": {
+                                    "Cells": [
+                                        {
+                                            "non-field_INFO_Cells": "required list of object; each containing images to be compared",
+                                            "non-field_INFO2_Cells": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                            "ContrastToProcess": "required string: CHECK if contrast names are defined in first level node",
+                                            "Subject_ID": ["required list of string: CHECK if subset of first level node subjects (i.e. Nodes(i).Transformations.Instructions.Input.Participant_ID)"],
+                                            "InputFileTypeGroup": "required string: CHECK [con|beta|other]",
+                                            "InputFilterRegexpGroup": "optional string: CHECK regular expression (only required if InputFileTypeGroup is 'other', e.g. ^contrast1.*nii$)"
+                                        }
+                                    ],
+                                    "Independence": "required number: CHECK [0|1] (=no/yes); ATTENTION: in the software the indicator is inverted (indicating dependence)",
+                                    "Variance": "required string: CHECK equal|unequal; by default, the measurements in each level are assumed to have unequal variance; 0...equal, 1...unequal",
+                                    "GrandMeanScaling": "required number: CHECK [0|1] (=no/yes); specify >grand mean scaling by factor<",
+                                    "non-field_INFO_GrandMeanScaling": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                    "non-field_INFO_ANCOVA": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                    "ANCOVA": "required number: CHECK [0|1] (=no/yes); specify >ANCOVA-by-factor< regressors"
+                                },
+                                "InputOneWayANOVAWithinSubject": {
+                                    "Subjects": [
+                                        {
+                                            "non-field_INFO_Subjects": "required list of object; each containing images from a single subject",
+                                            "non-field_INFO2_Subjects": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                            "ContrastsToProcess": ["required (list of) string: CHECK if contrast names are defined in first level node"],
+                                            "non-field_INFO_ContrastsToProcess": "each of the ContrastsToProcess will be assigned a different level/condition (e.g. pre-treatment -> 1, post-treatment -> 2,...)",
+                                            "Subject_ID": ["required list of string: CHECK if subset of first level node subjects (i.e. Nodes(i).Transformations.Instructions.Input.Participant_ID)"],
+                                            "InputFileType": "required string: CHECK [con|beta|other]",
+                                            "InputFilterRegexp": ["optional (list of) string: CHECK regular expression (only required if InputFileType is 'other', e.g. ^contrast1.*nii$)"],
+                                            "non-field_INFO_InputFilterRegexp": "the list must have the same length (-> CHECK) as the list of ContrastsToProcess and the order must match",
+                                            "non-field_INFO_Conditions": "the entry for Conditions (required by SPM) will be determined from ContrastsToProcess (order represents Condition index!) for each chosen subject",
+                                            "non-field_INFO2_Conditions": "required array of number (nscan-by-1 matrix; factor matrix >I< must have four columns and as many rows as scans/participants [same format as SPM variable SPM.xX.I])",
+                                            "non-field_INFO3_Conditions": "first column of I denotes the replication number and entries in the other columns denote the levels of each experimental factor"
+                                        }
+                                    ],
+                                    "Independence": "required number: CHECK [0|1] (=no/yes); ATTENTION: in the software the indicator is inverted (indicating dependence)",
+                                    "Variance": "required string: CHECK equal|unequal; by default, the measurements in each level are assumed to have unequal variance; 0...equal, 1...unequal",
+                                    "GrandMeanScaling": "required number: CHECK [0|1] (=no/yes); specify >grand mean scaling by factor<",
+                                    "non-field_INFO_GrandMeanScaling": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                    "non-field_INFO_ANCOVA": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                    "ANCOVA": "required number: CHECK [0|1] (=no/yes); specify >ANCOVA-by-factor< regressors"
+                                },
+                                "InputFullFactorial": {
+                                    "Factors": [
+                                        {
+                                            "non-field_INFO_Factors": "required list of object; create new factors; importance of order?",
+                                            "Name": "required string (e.g. Rep)",
+                                            "Levels": "required number: CHECK >0 (e.g. 2)",
+                                            "Independence": "required number: CHECK [0|1] (=no/yes); ATTENTION: in the software the indicator is inverted (indicating dependence)",
+                                            "Variance": "required string: CHECK equal|unequal; by default, the measurements in each level are assumed to have unequal variance; 0...equal, 1...unequal",
+                                            "GrandMeanScaling": "required number: CHECK [0|1] (=no/yes); specify >grand mean scaling by factor<",
+                                            "non-field_INFO_GrandMeanScaling": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                            "non-field_INFO_ANCOVA": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                            "ANCOVA": "required number: CHECK [0|1] (=no/yes); specify >ANCOVA-by-factor< regressors"
+                                        }
+                                    ],
+                                    "Cells": [
+                                        {
+                                            "non-field_INFO_Cells": "required list of object; each containing images to be compared",
+                                            "non-field_INFO2_Cells": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                            "non-field_INFO3_Cells": "the images are chosen according to ContrastsToProcess and the chosen subjects",
+                                            "non-field_INFO_Levels": "e.g. the vector [2 3] specifies the cell corresponding to the 2nd-level of the first factor and the 3rd level of the 2nd factor",
+                                            "ContrastToProcess": "required string: CHECK if contrast names are defined in first level node",
+                                            "Subject_ID": ["required list of string: CHECK if subset of first level node subjects (i.e. Nodes(i).Transformations.Instructions.Input.Participant_ID)"],
+                                            "non-field_INFO_ContrastToProcess&Subject_ID": "images belonging to this cell are determined by the ContrastToProcess and the chosen subjects",
+                                            "non-field_INFO2_ContrastToProcess&Subject_ID": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                            "InputFileType": "required string: CHECK [con|beta|other]",
+                                            "InputFilterRegexp": "optional string: CHECK regular expression (only required if InputFileType is 'other', e.g. ^contrast1.*nii$)",
+                                            "Levels": "required (array of) number: specifies which cell in the factorial design these images belong to; the length of this vector should correspond to the number of factors in the design"
+                                        }
+                                    ],
+                                    "GenerateContrasts": "required number: CHECK [0|1] (=no/yes); automatically generate the contrasts necessary to test for all main effects and interactions"
+                                },
+                                "InputFlexibleFactorial": {
+                                    "Factors": [
+                                        {
+                                            "non-field_INFO_Factors": "required list of object; importance of order?; maximum of 3 factors (according to options below)??",
+                                            "Name": "required string (e.g. Rep)",
+                                            "Independence": "required number: CHECK [0|1] (=no/yes); ATTENTION: in the software the indicator is inverted (indicating dependence)",
+                                            "Variance": "required string: CHECK equal|unequal; by default, the measurements in each level are assumed to have unequal variance; 0...equal, 1...unequal",
+                                            "GrandMeanScaling": "required number: CHECK [0|1] (=no/yes); specify >grand mean scaling by factor<",
+                                            "non-field_INFO_GrandMeanScaling": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                            "non-field_INFO_ANCOVA": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                            "ANCOVA": "required number: CHECK [0|1] (=no/yes); specify >ANCOVA-by-factor< regressors"
+                                        }
+                                    ],
+                                    "Subjects": [
+                                        {
+                                            "non-field_INFO_Subjects": "required list of object; each containing images from a single subject",
+                                            "non-field_INFO2_Subjects": "all images must have the same image dimensions, orientation, voxel size etc.",
+                                            "non-field_INFO3_Subjects": "the images are chosen according to ContrastsToProcess and the chosen subjects",
+                                            "Subject_ID": ["required list of string: CHECK if subset of first level node subjects (i.e. Nodes(i).Transformations.Instructions.Input.Participant_ID)"],
+                                            "non-field_INFO_Subject_ID": "subjects with identical conditions can be grouped together",
+                                            "ContrastsToProcess": ["required (list of) string: CHECK if contrast names are defined in first level node"],
+                                            "non-field_INFO_ContrastsToProcess": "the scans will be sorted first by Subject_ID and then by ContrastsToProcess (e.g. Subject_ID1_Contrast1, Subject_ID1_Contrast2, Subject_ID2_Contrast1, Subject_ID2_Contrast2,...)",
+                                            "InputFileType": "required string: CHECK [con|beta|other]",
+                                            "InputFilterRegexp": ["optional (list of) string: CHECK regular expression (only required if InputFileType is 'other', e.g. ^contrast1.*nii$)"],
+                                            "non-field_INFO_InputFilterRegexp": "the list must have the same length (-> CHECK) as the list of ContrastsToProcess and the order must match",
+                                            "Conditions": "required array/matrix of number (assignment of the subjects' scans to the levels of the previously defined factors)",
+                                            "non-field_INFO_Conditions": "entries in the conditions array/matrix must be in the same order as the images in the scans array!",
+                                            "non-field_INFO2_Conditions": "nscan-by-nfactors (max. 3 factors) matrix is needed; the first column of SPM.xX.I (replication number) will be determined by SPM automatically",
+                                            "non-field_INFO3_Conditions": "first column of SPM.xX.I denotes the replication number and entries in the other columns denote the levels of each experimental factor"
+                                        }
+                                    ],
+                                    "MainEffectsAndInteractions": [
+                                        {
+                                            "non-field_INFO_MainEffectsAndInteractions": "optional list of object (add main effect or interaction to the design matrix)",
+                                            "Type": "required string: CHECK MainEffect|Interaction",
+                                            "FactorNames": "required (array of) string|array of 2 strings depending on Type (CHECK) [(array of) string for MainEffect, 2 strings for Interactions]; strings must correspond to names in Factors list (CHECK)"
+                                        }
+                                    ]
+                                }
+                            },
+                            "Covariates": [
+                                {
+                                    "non-field_INFO_Covariates": "optional list of object; this option allows for the specification of covariates and nuisance variables (Note: spm does not make any distinction between effects of interest and nuisance effects)",
+                                    "CovariatesFileRegexp": "required string: CHECK regular expression (e.g. ^participants.tsv$)",
+                                    "Name": "required string: name of covariate",
+                                    "ColName": "required string; CHECK column name in 'participants.tsv'",
+                                    "Interactions": "required string: CHECK None|With Factor 1|With Factor 2|With Factor 3 <-> assignment in software 1|2|3|4 (1 = None!!); additional regressor that is the interaction between the covariate and a chosen experimental factor",
+                                    "non-field_INFO_Interactions": "Factor # must correspond to previously defined factors; only available for FullFactorial and FlexibleFactorial??",
+                                    "Centering": "required string: CHECK Overall mean|Factor 1 mean|Factor 2 mean|Factor 3 mean|No centering|User specified value|As implied by ANCOVA|GM <-> assignment in software [1-8] (5 = No!!)",
+                                    "non-field_INFO_Centering": "Factor # must correspond to previously defined factors; only available for FullFactorial and FlexibleFactorial??"
+                                }
+                            ],
+                            "Masking": {
+                                "non-field_INFO_Masking": "specifies the voxels within the image volume which are to be assessed",
+                                "ThresholdMasking": {
+                                    "Type": "required string: CHECK None|Absolute|Relative",
+                                    "ThresholdValue": "required number: CHECK >=0 (depending on Type: absolute value or proportion of the global value)"
+                                },
+                                "ImplicitMask": "required number: CHECK [0|1] (=no/yes); mask implied by a particular voxel value (zero/NaN); voxels with this mask value are excluded from the analysis",
+                                "ExplicitMask": "optional string: CHECK for valid .nii file (e.g. W:/_SPM_/masks/brainmask_05.nii); all zero/NaN voxels in the mask file are excluded"
+                            },
+                            "GlobalCalculation": {
+                                "non-field_INFO_GlobalCalculation": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                "Type": "required string: CHECK Omit|User|Mean; methods for estimating global effects",
+                                "UserSpecifiedValues": ["required array of number (vector of global values): the list must have the same length (-> CHECK) as the cumulated number of subjects and the order must match"]
+                            },
+                            "GlobalNormalisation": {
+                                "non-field_INFO_GlobalNormalisation": "this option is not intended for fMRI second level data! -> probably DELETE",
+                                "OverallGrandMeanScaling": "required number: CHECK [0|1] (=no/yes); scaling the data by a common factor, proportionally or adding a covariate to adjust for the global values",
+                                "UserSpecifiedValue": "required number: CHECK >=0; grand mean scaled value",
+                                "Normalisation": "required string: CHECK None|Proportional|ANCOVA; account for nuisance effects by dividing intensities by the global value or by including the global covariate as a nuisance effect in the GLM"
+                            }
+                        },
+                        "Script": "optional string: script executing the Instruction",
+                        "Output": "optional (list of) string: output of the Instruction"
+                    },
+                    {
+                        "Name": "required string: name of instruction",
+                        "Input": "required object: needed input for this Instruction (e.g. output of previous Instruction)",
+                        "Script": "optional string: script executing the Instruction",
+                        "Output": "optional (list of) string: output of the Instruction"
+                    }
+                ]
+            },
+            "Model": {
+                "non-field_INFO_Model": "REQUIRED object: specifies the statistical model to be estimated",
+                "Type": "REQUIRED string: CHECK glm|meta",
+                "X": ["REQUIRED list of string|1 (=regressors + confounders + intercept) including every column of the design matrix e.g.:","mean"],
+                "Software": [
+                    {
+                        "non-field_INFO_Software": "optional list of object: specification of any software-specific estimation parameters; each value in the list is an object, with the key being the name of the software package (FSL, SPM, etc.) and the value being an object containing software-specific parameters",
+                        "SPM": {
+                            "WriteResiduals": "required number: CHECK [0|1] (=no/yes)",
+                            "Method": {
+                                "Type": "required string: CHECK [Classical|Bayesian 1st-level|Bayesian 2nd-level]"
+                            },
+                            "DeleteExistingContrasts": "required number: CHECK [0|1] (=no/yes)",
+                            "ReplicateOverSessions": "required string: CHECK [Dont replicate|Replicate|Replicate&Scale|Create per session|Both: Replicate + Create per session| Both: Replicate&Scale + Create per session] -> batch options: [none|repl|replsc|sess|both|bothsc]"
+                        }
+                    }
+                ]
+            },
+            "Contrasts": [
+                {
+                    "non-field_INFO_Contrasts": "optional list of object (specify t and F contrasts)",
+                    "Name": "required string (e.g. ChoiceLeft): CHECK for uniqueness of name within contrasts",
+                    "ConditionList": ["required array of string: CHECK for order with respect to conditions; e.g. ChoiceLeft", "ChoiceRight"],
+                    "Weights": ["optional array of number (1D for t|F, 2D for F, e.g. [1, 0] for t|F or [[0, 1],[2, 3]] for F); if empty unit weights are assigned to all variables"],
+                    "Test": "required string: CHECK [t|F|skip]"
+                },
+                {
+                    "Name": "more",
+                    "ConditionList": ["mean"],
+                    "Weights": [1],
+                    "Test": "t"
+                },
+                {
+                    "Name": "less",
+                    "ConditionList": ["mean"],
+                    "Weights": [-1],
+                    "Test": "t"
+                }
+            ]
+        }
+    ],
+    "Edges": [
+        {
+            "non-field_INFO_Edges": "optional array of object (an edge describes a single connection between two nodes; a combination of edges describes a sequence of nodes)",
+            "non-field_INFO2_Edges": "if edges is not present in the model, a linear sequence is assumed from the first Node to the last, with no filters specified on each edge",
+            "Source": "required string (must correspond to Nodes.Name)",
+            "Destination": "required string (must correspond to Nodes.Name)",
+            "Filter": {
+                "non-field_INFO_Filter": "optional object (maps a grouping variable to a list of values to pass to Destination; if multiple grouping variables are passed, the result is the conjunction of filters; e.g.:",
+                "group": ["patient"]
+            }
+        }
+    ]
+}
