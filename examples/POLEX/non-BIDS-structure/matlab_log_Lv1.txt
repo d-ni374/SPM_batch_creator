@@ -1,0 +1,1270 @@
+Validation OK.
+
+Validating data for participant "sub-POL1015"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:26 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:26 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:27 - 03/12/2024
+
+Validating data for participant "sub-POL1023"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:27 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:27 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:28 - 03/12/2024
+
+Validating data for participant "sub-POL1065"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:28 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:28 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:29 - 03/12/2024
+
+Validating data for participant "sub-POL1078"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:29 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:29 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:30 - 03/12/2024
+
+Validating data for participant "sub-POL1093"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:30 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:30 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:31 - 03/12/2024
+
+Validating data for participant "sub-POL1099"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:31 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:31 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:32 - 03/12/2024
+
+Validating data for participant "sub-POL1108"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:32 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:32 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:33 - 03/12/2024
+
+Validating data for participant "sub-POL1113"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:33 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:33 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:34 - 03/12/2024
+
+Validating data for participant "sub-POL1140"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:35 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:35 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:35 - 03/12/2024
+
+Validating data for participant "sub-POL1165"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:36 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:36 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:37 - 03/12/2024
+
+Validating data for participant "sub-POL1174"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:37 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:37 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:38 - 03/12/2024
+
+Validating data for participant "sub-POL1181"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:38 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:38 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:39 - 03/12/2024
+
+Validating data for participant "sub-POL1192"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:39 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:39 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:40 - 03/12/2024
+
+Validating data for participant "sub-POL1210"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:40 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:40 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:41 - 03/12/2024
+
+Validating data for participant "sub-POL1237"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:41 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:41 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:42 - 03/12/2024
+
+Validating data for participant "sub-POL1276"
+
+SPM12: spm_fMRI_design (v7210)                     15:17:42 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              15:17:42 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          15:17:43 - 03/12/2024
+Validating Edge 1
+
+Creating batch for participant "sub-POL1015"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:17:46 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:17:46 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:17:46 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:17:46 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:17:55 - 03/12/2024
+03-Dec-2024 15:17:55 - Done    'fMRI model specification'
+03-Dec-2024 15:17:55 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:17:55 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:17:55 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (226231 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.395975e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.061572e+02 [+3.25]
+  ReML Iteration 3                      :        ...1.205773e+00 [+3.50]
+  ReML Iteration 4                      :        ...8.328109e-02 [+3.75]
+
+SPM12: spm_spm (v7120)                             15:18:00 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:18:17 - 03/12/2024
+Done
+03-Dec-2024 15:18:17 - Done    'Model estimation'
+03-Dec-2024 15:18:17 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:18:17 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1015\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1015\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1015\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1015\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1015\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1015\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1015\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1015\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:18:22 - 03/12/2024
+03-Dec-2024 15:18:22 - Done    'Contrast Manager'
+03-Dec-2024 15:18:22 - Done
+
+
+Creating batch for participant "sub-POL1023"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:18:26 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:18:26 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:18:26 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:18:26 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:18:34 - 03/12/2024
+03-Dec-2024 15:18:34 - Done    'fMRI model specification'
+03-Dec-2024 15:18:34 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:18:34 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:18:35 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (214602 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...6.936959e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.620163e+00 [+4.50]
+  ReML Iteration 3                      :        ...5.515253e-02 [+4.75]
+
+SPM12: spm_spm (v7120)                             15:18:40 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:18:57 - 03/12/2024
+Done
+03-Dec-2024 15:18:57 - Done    'Model estimation'
+03-Dec-2024 15:18:57 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:18:57 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1023\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1023\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1023\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1023\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1023\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1023\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1023\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1023\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:19:01 - 03/12/2024
+03-Dec-2024 15:19:01 - Done    'Contrast Manager'
+03-Dec-2024 15:19:01 - Done
+
+
+Creating batch for participant "sub-POL1065"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:19:04 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:19:05 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:19:05 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:19:05 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:19:13 - 03/12/2024
+03-Dec-2024 15:19:13 - Done    'fMRI model specification'
+03-Dec-2024 15:19:13 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:19:13 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:19:13 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (203385 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.377136e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.975996e+02 [+3.25]
+  ReML Iteration 3                      :        ...2.147198e+00 [+3.50]
+  ReML Iteration 4                      :        ...1.659446e-01 [+3.75]
+  ReML Iteration 5                      :        ...1.188162e-02 [+4.00]
+
+SPM12: spm_spm (v7120)                             15:19:18 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:19:37 - 03/12/2024
+Done
+03-Dec-2024 15:19:37 - Done    'Model estimation'
+03-Dec-2024 15:19:37 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:19:37 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1065\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1065\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1065\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1065\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1065\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1065\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1065\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1065\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:19:42 - 03/12/2024
+03-Dec-2024 15:19:42 - Done    'Contrast Manager'
+03-Dec-2024 15:19:42 - Done
+
+
+Creating batch for participant "sub-POL1078"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:19:46 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:19:46 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:19:46 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:19:46 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:19:54 - 03/12/2024
+03-Dec-2024 15:19:54 - Done    'fMRI model specification'
+03-Dec-2024 15:19:54 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:19:54 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:19:55 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (202452 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...4.398750e+01 [+4.25]
+  ReML Iteration 2                      :        ...7.459290e-01 [+4.50]
+  ReML Iteration 3                      :        ...1.184400e-03 [+4.75]
+
+SPM12: spm_spm (v7120)                             15:19:59 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:20:18 - 03/12/2024
+Done
+03-Dec-2024 15:20:18 - Done    'Model estimation'
+03-Dec-2024 15:20:18 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:20:18 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1078\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1078\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1078\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1078\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1078\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1078\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1078\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1078\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:20:22 - 03/12/2024
+03-Dec-2024 15:20:22 - Done    'Contrast Manager'
+03-Dec-2024 15:20:22 - Done
+
+
+Creating batch for participant "sub-POL1093"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:20:26 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:20:26 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:20:26 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:20:26 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:20:35 - 03/12/2024
+03-Dec-2024 15:20:35 - Done    'fMRI model specification'
+03-Dec-2024 15:20:35 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:20:35 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:20:35 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (213671 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.183983e+02 [+4.25]
+  ReML Iteration 2                      :        ...3.202136e+01 [+4.50]
+  ReML Iteration 3                      :        ...5.916906e-01 [+4.75]
+  ReML Iteration 4                      :        ...3.304278e-02 [+5.00]
+
+SPM12: spm_spm (v7120)                             15:20:40 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:20:59 - 03/12/2024
+Done
+03-Dec-2024 15:20:59 - Done    'Model estimation'
+03-Dec-2024 15:20:59 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:20:59 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1093\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1093\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1093\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1093\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1093\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1093\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1093\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1093\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:21:03 - 03/12/2024
+03-Dec-2024 15:21:03 - Done    'Contrast Manager'
+03-Dec-2024 15:21:03 - Done
+
+
+Creating batch for participant "sub-POL1099"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:21:07 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:21:07 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:21:07 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:21:07 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:21:15 - 03/12/2024
+03-Dec-2024 15:21:15 - Done    'fMRI model specification'
+03-Dec-2024 15:21:15 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:21:15 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:21:16 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (177767 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...4.277974e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.343059e-02 [+4.50]
+
+SPM12: spm_spm (v7120)                             15:21:20 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:21:39 - 03/12/2024
+Done
+03-Dec-2024 15:21:39 - Done    'Model estimation'
+03-Dec-2024 15:21:39 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:21:39 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1099\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1099\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1099\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1099\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1099\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1099\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1099\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1099\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:21:43 - 03/12/2024
+03-Dec-2024 15:21:43 - Done    'Contrast Manager'
+03-Dec-2024 15:21:43 - Done
+
+
+Creating batch for participant "sub-POL1108"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:21:47 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:21:47 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:21:47 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:21:47 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:21:56 - 03/12/2024
+03-Dec-2024 15:21:56 - Done    'fMRI model specification'
+03-Dec-2024 15:21:56 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:21:56 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:21:56 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (200432 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.205031e+02 [+4.25]
+  ReML Iteration 2                      :        ...4.380087e+01 [+4.50]
+  ReML Iteration 3                      :        ...4.783356e-01 [+4.75]
+  ReML Iteration 4                      :        ...1.907518e-02 [+5.00]
+
+SPM12: spm_spm (v7120)                             15:22:01 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:22:19 - 03/12/2024
+Done
+03-Dec-2024 15:22:19 - Done    'Model estimation'
+03-Dec-2024 15:22:19 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:22:19 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1108\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1108\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1108\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1108\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1108\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1108\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1108\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1108\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:22:23 - 03/12/2024
+03-Dec-2024 15:22:23 - Done    'Contrast Manager'
+03-Dec-2024 15:22:23 - Done
+
+
+Creating batch for participant "sub-POL1113"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:22:27 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:22:27 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:22:27 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:22:27 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:22:35 - 03/12/2024
+03-Dec-2024 15:22:35 - Done    'fMRI model specification'
+03-Dec-2024 15:22:35 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:22:35 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:22:35 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (205134 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...2.966498e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.529846e-01 [+4.50]
+  ReML Iteration 3                      :        ...8.604886e-03 [+4.75]
+
+SPM12: spm_spm (v7120)                             15:22:40 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:22:57 - 03/12/2024
+Done
+03-Dec-2024 15:22:57 - Done    'Model estimation'
+03-Dec-2024 15:22:57 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:22:57 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1113\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1113\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1113\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1113\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1113\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1113\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1113\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1113\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:23:02 - 03/12/2024
+03-Dec-2024 15:23:02 - Done    'Contrast Manager'
+03-Dec-2024 15:23:02 - Done
+
+
+Creating batch for participant "sub-POL1140"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:23:05 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:23:05 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:23:05 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:23:05 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:23:14 - 03/12/2024
+03-Dec-2024 15:23:14 - Done    'fMRI model specification'
+03-Dec-2024 15:23:14 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:23:14 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:23:14 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (218066 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...8.758052e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.168434e+01 [+4.50]
+  ReML Iteration 3                      :        ...3.964775e-01 [+4.75]
+  ReML Iteration 4                      :        ...2.194161e-02 [+5.00]
+
+SPM12: spm_spm (v7120)                             15:23:19 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:23:36 - 03/12/2024
+Done
+03-Dec-2024 15:23:36 - Done    'Model estimation'
+03-Dec-2024 15:23:36 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:23:36 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1140\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1140\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1140\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1140\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1140\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1140\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1140\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1140\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:23:40 - 03/12/2024
+03-Dec-2024 15:23:40 - Done    'Contrast Manager'
+03-Dec-2024 15:23:40 - Done
+
+
+Creating batch for participant "sub-POL1165"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:23:44 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:23:44 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:23:44 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:23:44 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:23:53 - 03/12/2024
+03-Dec-2024 15:23:53 - Done    'fMRI model specification'
+03-Dec-2024 15:23:53 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:23:53 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:23:53 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (196769 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...9.074053e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.266757e+00 [+4.50]
+  ReML Iteration 3                      :        ...1.637275e-02 [+4.75]
+
+SPM12: spm_spm (v7120)                             15:23:59 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:24:16 - 03/12/2024
+Done
+03-Dec-2024 15:24:16 - Done    'Model estimation'
+03-Dec-2024 15:24:16 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:24:16 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1165\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1165\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1165\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1165\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1165\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1165\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1165\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1165\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:24:20 - 03/12/2024
+03-Dec-2024 15:24:20 - Done    'Contrast Manager'
+03-Dec-2024 15:24:20 - Done
+
+
+Creating batch for participant "sub-POL1174"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:24:24 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:24:24 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:24:24 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:24:24 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:24:33 - 03/12/2024
+03-Dec-2024 15:24:33 - Done    'fMRI model specification'
+03-Dec-2024 15:24:33 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:24:33 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:24:33 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (190238 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...4.774337e+01 [+4.25]
+  ReML Iteration 2                      :        ...2.632331e+00 [+4.50]
+  ReML Iteration 3                      :        ...3.545684e-02 [+4.75]
+
+SPM12: spm_spm (v7120)                             15:24:38 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:24:56 - 03/12/2024
+Done
+03-Dec-2024 15:24:56 - Done    'Model estimation'
+03-Dec-2024 15:24:56 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:24:56 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1174\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1174\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1174\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1174\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1174\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1174\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1174\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1174\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:25:00 - 03/12/2024
+03-Dec-2024 15:25:01 - Done    'Contrast Manager'
+03-Dec-2024 15:25:01 - Done
+
+
+Creating batch for participant "sub-POL1181"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:25:04 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:25:04 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:25:04 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:25:04 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:25:13 - 03/12/2024
+03-Dec-2024 15:25:13 - Done    'fMRI model specification'
+03-Dec-2024 15:25:13 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:25:13 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:25:13 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (215323 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...6.847964e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.989201e+00 [+4.50]
+  ReML Iteration 3                      :        ...4.481420e-02 [+4.75]
+
+SPM12: spm_spm (v7120)                             15:25:18 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:25:35 - 03/12/2024
+Done
+03-Dec-2024 15:25:35 - Done    'Model estimation'
+03-Dec-2024 15:25:35 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:25:35 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1181\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1181\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1181\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1181\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1181\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1181\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1181\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1181\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:25:39 - 03/12/2024
+03-Dec-2024 15:25:39 - Done    'Contrast Manager'
+03-Dec-2024 15:25:39 - Done
+
+
+Creating batch for participant "sub-POL1192"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:25:43 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:25:43 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:25:43 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:25:43 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:25:52 - 03/12/2024
+03-Dec-2024 15:25:52 - Done    'fMRI model specification'
+03-Dec-2024 15:25:52 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:25:52 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:25:52 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (213492 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...9.933017e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.280781e+01 [+4.50]
+  ReML Iteration 3                      :        ...4.242279e-01 [+4.75]
+  ReML Iteration 4                      :        ...2.296135e-02 [+5.00]
+
+SPM12: spm_spm (v7120)                             15:25:57 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:26:15 - 03/12/2024
+Done
+03-Dec-2024 15:26:15 - Done    'Model estimation'
+03-Dec-2024 15:26:15 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:26:15 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1192\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1192\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1192\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1192\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1192\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1192\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1192\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1192\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:26:20 - 03/12/2024
+03-Dec-2024 15:26:20 - Done    'Contrast Manager'
+03-Dec-2024 15:26:20 - Done
+
+
+Creating batch for participant "sub-POL1210"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:26:23 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:26:24 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:26:24 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:26:24 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:26:32 - 03/12/2024
+03-Dec-2024 15:26:32 - Done    'fMRI model specification'
+03-Dec-2024 15:26:32 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:26:32 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:26:33 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (202192 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...9.396764e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.952103e-01 [+4.50]
+  ReML Iteration 3                      :        ...4.771128e-03 [+4.75]
+
+SPM12: spm_spm (v7120)                             15:26:37 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:26:55 - 03/12/2024
+Done
+03-Dec-2024 15:26:55 - Done    'Model estimation'
+03-Dec-2024 15:26:55 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:26:55 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1210\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1210\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1210\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1210\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1210\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1210\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1210\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1210\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:27:00 - 03/12/2024
+03-Dec-2024 15:27:00 - Done    'Contrast Manager'
+03-Dec-2024 15:27:00 - Done
+
+
+Creating batch for participant "sub-POL1237"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:27:03 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:27:03 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:27:03 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:27:03 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:27:12 - 03/12/2024
+03-Dec-2024 15:27:12 - Done    'fMRI model specification'
+03-Dec-2024 15:27:12 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:27:12 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:27:12 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (193021 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...5.129091e+01 [+4.25]
+  ReML Iteration 2                      :        ...3.800434e-02 [+4.50]
+
+SPM12: spm_spm (v7120)                             15:27:17 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:27:35 - 03/12/2024
+Done
+03-Dec-2024 15:27:35 - Done    'Model estimation'
+03-Dec-2024 15:27:35 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:27:35 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1237\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1237\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1237\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1237\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1237\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1237\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1237\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1237\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:27:40 - 03/12/2024
+03-Dec-2024 15:27:40 - Done    'Contrast Manager'
+03-Dec-2024 15:27:40 - Done
+
+
+Creating batch for participant "sub-POL1276"
+
+
+------------------------------------------------------------------------
+03-Dec-2024 15:27:43 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 15:27:43 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     15:27:43 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     15:27:43 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          15:27:52 - 03/12/2024
+03-Dec-2024 15:27:52 - Done    'fMRI model specification'
+03-Dec-2024 15:27:52 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             15:27:52 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              15:27:52 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing
+Temporal non-sphericity (185319 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...5.419914e+01 [+4.25]
+  ReML Iteration 2                      :        ...7.693783e-02 [+4.50]
+
+SPM12: spm_spm (v7120)                             15:27:57 - 03/12/2024
+========================================================================
+Chunk   1/4                             :                  ...processing                       ...doneChunk   2/4                             :                  ...processing                       ...doneChunk   3/4                             :                  ...processing                       ...doneChunk   4/4                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          15:28:16 - 03/12/2024
+Done
+03-Dec-2024 15:28:16 - Done    'Model estimation'
+03-Dec-2024 15:28:16 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             15:28:16 - 03/12/2024
+========================================================================
+Contrasts folder                        :        .\sub-POL1276\ratemeper
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1276\ratemeper','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1276\ratemeper','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmT_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1276\ratemeper','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1276\ratemeper','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmT_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1276\ratemeper','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1276\ratemeper','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','F:\POLEX\3_first_levels\final_test_smoothed\sub-POL1276\ratemeper','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          15:28:21 - 03/12/2024
+03-Dec-2024 15:28:21 - Done    'Contrast Manager'
+03-Dec-2024 15:28:21 - Done
+
