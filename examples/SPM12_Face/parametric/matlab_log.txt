@@ -1,0 +1,120 @@
+Validation OK.
+
+Validating data for participant "sub-05"
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for orthogonalisation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: orth
+
+SPM12: spm_fMRI_design (v7210)                     09:01:08 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              09:01:08 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          09:01:09 - 03/12/2024
+Validation OK.
+
+Validating data for participant "sub-05"
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for orthogonalisation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: orth
+
+SPM12: spm_fMRI_design (v7210)                     09:02:08 - 03/12/2024
+========================================================================
+
+SPM12: spm_fmri_spm_ui_noSave (v7018)              09:02:08 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Design reporting                        :                        ...done
+Completed                               :          09:02:09 - 03/12/2024
+[Warning: No contrasts defined in the json file.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_contrasts', 'E:\Documents\MATLAB\BIDS\json_validator_bids_contrasts.m', 70)" style="font-weight:bold">json_validator_bids_contrasts</a> (<a href="matlab: opentoline('E:\Documents\MATLAB\BIDS\json_validator_bids_contrasts.m',70,0)">line 70</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('json_validator_bids_values', 'E:\Documents\MATLAB\BIDS\json_validator_bids_values.m', 147)" style="font-weight:bold">json_validator_bids_values</a> (<a href="matlab: opentoline('E:\Documents\MATLAB\BIDS\json_validator_bids_values.m',147,0)">line 147</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bids_validation_json', 'E:\Documents\MATLAB\BIDS\bids_validation_json.m', 15)" style="font-weight:bold">bids_validation_json</a> (<a href="matlab: opentoline('E:\Documents\MATLAB\BIDS\bids_validation_json.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SPM_batch_creator', 'E:\Documents\MATLAB\BIDS\SPM_batch_creator.m', 49)" style="font-weight:bold">SPM_batch_creator</a> (<a href="matlab: opentoline('E:\Documents\MATLAB\BIDS\SPM_batch_creator.m',49,0)">line 49</a>)] 
+Validating Edge 1
+
+Creating batch for participant "sub-05"
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for time modulation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: tmod
+Info: (Optional) input for orthogonalisation not found in E:\MRI\Training\Face\1_rawdata\sub-05\all_conditions_pmod.mat: orth
+
+
+------------------------------------------------------------------------
+03-Dec-2024 09:02:14 - Running job #1
+------------------------------------------------------------------------
+03-Dec-2024 09:02:14 - Running 'fMRI model specification'
+
+SPM12: spm_fMRI_design (v7210)                     09:02:15 - 03/12/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM12: spm_fmri_spm_ui (v7018)                     09:02:15 - 03/12/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          09:02:20 - 03/12/2024
+03-Dec-2024 09:02:20 - Done    'fMRI model specification'
+03-Dec-2024 09:02:20 - Running 'Model estimation'
+
+SPM12: spm_spm (v7120)                             09:02:20 - 03/12/2024
+========================================================================
+
+SPM12: spm_est_non_sphericity (v6913)              09:02:20 - 03/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Temporal non-sphericity (49966 voxels)  :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...5.635161e+01 [+4.25]
+  ReML Iteration 2                      :        ...1.752472e+00 [+4.50]
+  ReML Iteration 3                      :        ...7.029045e-02 [+4.75]
+
+SPM12: spm_spm (v7120)                             09:02:23 - 03/12/2024
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          09:02:29 - 03/12/2024
+
+SPM12: spm_contrasts.m                             09:02:30 - 03/12/2024
+========================================================================
+	ESS image  1                    :                   ...computing       ...written ess_0001.nii
+	spm{F} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','E:\MRI\Training\Face\face_rep\re4_pmod_categ_json\sub-05','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmF_0001.nii</a>
+	ESS image  2                    :                   ...computing       ...written ess_0002.nii
+	spm{F} image  2                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','E:\MRI\Training\Face\face_rep\re4_pmod_categ_json\sub-05','Ic',2));TabDat = spm_list('List',xSPM,hReg);;">spmF_0002.nii</a>
+	ESS image  3                    :                   ...computing       ...written ess_0003.nii
+	spm{F} image  3                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','E:\MRI\Training\Face\face_rep\re4_pmod_categ_json\sub-05','Ic',3));TabDat = spm_list('List',xSPM,hReg);;">spmF_0003.nii</a>
+	ESS image  4                    :                   ...computing       ...written ess_0004.nii
+	spm{F} image  4                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','E:\MRI\Training\Face\face_rep\re4_pmod_categ_json\sub-05','Ic',4));TabDat = spm_list('List',xSPM,hReg);;">spmF_0004.nii</a>
+	contrast image  5               :                   ...computing       ...written con_0005.nii
+	spm{T} image  5                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','E:\MRI\Training\Face\face_rep\re4_pmod_categ_json\sub-05','Ic',5));TabDat = spm_list('List',xSPM,hReg);;">spmT_0005.nii</a>
+	contrast image  6               :                   ...computing       ...written con_0006.nii
+	spm{T} image  6                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','E:\MRI\Training\Face\face_rep\re4_pmod_categ_json\sub-05','Ic',6));TabDat = spm_list('List',xSPM,hReg);;">spmT_0006.nii</a>
+	contrast image  7               :                   ...computing       ...written con_0007.nii
+	spm{T} image  7                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','E:\MRI\Training\Face\face_rep\re4_pmod_categ_json\sub-05','Ic',7));TabDat = spm_list('List',xSPM,hReg);;">spmT_0007.nii</a>
+	contrast image  8               :                   ...computing       ...written con_0008.nii
+	spm{T} image  8                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','E:\MRI\Training\Face\face_rep\re4_pmod_categ_json\sub-05','Ic',8));TabDat = spm_list('List',xSPM,hReg);;">spmT_0008.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Done
+03-Dec-2024 09:02:31 - Done    'Model estimation'
+03-Dec-2024 09:02:31 - Running 'Contrast Manager'
+
+SPM12: spm_contrasts.m                             09:02:31 - 03/12/2024
+========================================================================
+Contrasts folder                        :   .\re4_pmod_categ_json\sub-05
+Completed                               :          09:02:31 - 03/12/2024
+03-Dec-2024 09:02:31 - Done    'Contrast Manager'
+03-Dec-2024 09:02:31 - Done
+
+json file updated with contrasts that were created automatically by SPM when using first level option "Factorial design".
+Note: The added contrasts REPLACE the "FactorialDesign" section in the json file.

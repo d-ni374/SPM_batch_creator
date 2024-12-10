@@ -1,0 +1,686 @@
+{
+  "BIDSModelVersion": "1.0.0-rc1",
+  "Name": "test_categorical",
+  "Description": "test with multiple conditions file",
+  "Input": {
+    "task": ""
+  },
+  "Edges": [
+    {
+      "Source": "",
+      "Destination": "",
+      "Filter": {}
+    }
+  ],
+  "Nodes": [
+    {
+      "Level": "Subject",
+      "Name": "first_level_stats",
+      "GroupBy": [],
+      "Transformations": {
+        "Transformer": "spm12-spec-v1",
+        "Instructions": [
+          {
+            "Name": "fmri_model_specification",
+            "Input": {
+              "BIDSflag": 0,
+              "Participant_ID": [
+                "sub-05"
+              ],
+              "InputDirectory": "E:/MRI/Training/Face/2_preprocessed",
+              "InputFilterRegexp": "^swars.*img",
+              "ImageType": "3d",
+              "OutputDirectory": "E:/MRI/Training/Face/face_rep/categorical",
+              "TimingParameters": {
+                "UnitsForDesign": "scans",
+                "InterscanInterval": 2,
+                "MicrotimeResolution": 24,
+                "MicrotimeOnset": 12
+              },
+              "Sessions": [
+                {
+                  "Session_id": "",
+                  "Run_ids": [],
+                  "EventsRegexp": "events\\.tsv$",
+                  "Conditions": [],
+                  "ConditionsRegexp": "^all_conditions\\.mat",
+                  "RegressorsRegexp": "^rp.*\\.txt$",
+                  "HighPassFilterSecs": 128
+                }
+              ],
+              "BasisFunctions": {
+                "Type": "Canonical HRF",
+                "OptionsCanonicalHRF": {
+                  "ModelTimeDerivatives": 1,
+                  "ModelDispersionDerivatives": 1
+                }
+              },
+              "ModelInteractionsVolterra": 0,
+              "GlobalNormalisation": 0,
+              "MaskingThreshold": 0.8,
+              "ExplicitMask": "",
+              "SerialCorrelations": "AR(1)",
+              "FactorialDesign": [
+                {
+                  "Name": "",
+                  "Levels": 0
+                }
+              ]
+            },
+            "Output": "SPM.mat"
+          }
+        ]
+      },
+      "Model": {
+        "HRF": {
+          "Model": "spm + derivative + dispersion",
+          "Variables": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(1)",
+            "Sn(1) F2*bf(2)",
+            "Sn(1) F2*bf(3)"
+          ]
+        },
+        "Type": "glm",
+        "X": [
+          "Sn(1) N1*bf(1)",
+          "Sn(1) N1*bf(2)",
+          "Sn(1) N1*bf(3)",
+          "Sn(1) N2*bf(1)",
+          "Sn(1) N2*bf(2)",
+          "Sn(1) N2*bf(3)",
+          "Sn(1) F1*bf(1)",
+          "Sn(1) F1*bf(2)",
+          "Sn(1) F1*bf(3)",
+          "Sn(1) F2*bf(1)",
+          "Sn(1) F2*bf(2)",
+          "Sn(1) F2*bf(3)",
+          "Sn(1) R1",
+          "Sn(1) R2",
+          "Sn(1) R3",
+          "Sn(1) R4",
+          "Sn(1) R5",
+          "Sn(1) R6",
+          "Sn(1) constant"
+        ],
+        "Options": {
+          "HighPassFilterCutoffHz": 0.0078125
+        },
+        "Software": [
+          {
+            "SPM": {
+              "WriteResiduals": 0,
+              "Method": {
+                "Type": "Classical"
+              },
+              "DeleteExistingContrasts": 0,
+              "ReplicateOverSessions": "Dont replicate"
+            }
+          }
+        ]
+      },
+      "Contrasts": [
+        {
+          "Name": "Average effect of condition",
+          "ConditionList": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(1)",
+            "Sn(1) F2*bf(2)",
+            "Sn(1) F2*bf(3)",
+            "Sn(1) R1",
+            "Sn(1) R2",
+            "Sn(1) R3",
+            "Sn(1) R4",
+            "Sn(1) R5",
+            "Sn(1) R6",
+            "Sn(1) constant"
+          ],
+          "Test": "F",
+          "Weights": [
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "Name": "Main effect of Fam",
+          "ConditionList": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(1)",
+            "Sn(1) F2*bf(2)",
+            "Sn(1) F2*bf(3)",
+            "Sn(1) R1",
+            "Sn(1) R2",
+            "Sn(1) R3",
+            "Sn(1) R4",
+            "Sn(1) R5",
+            "Sn(1) R6",
+            "Sn(1) constant"
+          ],
+          "Test": "F",
+          "Weights": [
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "Name": "Main effect of Rep",
+          "ConditionList": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(1)",
+            "Sn(1) F2*bf(2)",
+            "Sn(1) F2*bf(3)",
+            "Sn(1) R1",
+            "Sn(1) R2",
+            "Sn(1) R3",
+            "Sn(1) R4",
+            "Sn(1) R5",
+            "Sn(1) R6",
+            "Sn(1) constant"
+          ],
+          "Test": "F",
+          "Weights": [
+            [
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "Name": "Interaction: Fam x Rep",
+          "ConditionList": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(1)",
+            "Sn(1) F2*bf(2)",
+            "Sn(1) F2*bf(3)",
+            "Sn(1) R1",
+            "Sn(1) R2",
+            "Sn(1) R3",
+            "Sn(1) R4",
+            "Sn(1) R5",
+            "Sn(1) R6",
+            "Sn(1) constant"
+          ],
+          "Test": "F",
+          "Weights": [
+            [
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "Name": "Positive effect of condition_1",
+          "ConditionList": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F2*bf(1)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "Name": "Positive effect of condition_2",
+          "ConditionList": [
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F2*bf(2)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "Name": "Positive effect of condition_3",
+          "ConditionList": [
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(3)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "Name": "Positive effect of Fam_1",
+          "ConditionList": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F2*bf(1)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "Name": "Positive effect of Fam_2",
+          "ConditionList": [
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F2*bf(2)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "Name": "Positive effect of Fam_3",
+          "ConditionList": [
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(3)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "Name": "Positive effect of Rep_1",
+          "ConditionList": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F2*bf(1)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "Name": "Positive effect of Rep_2",
+          "ConditionList": [
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F2*bf(2)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "Name": "Positive effect of Rep_3",
+          "ConditionList": [
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(3)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "Name": "Positive Interaction: Fam x Rep_1",
+          "ConditionList": [
+            "Sn(1) N1*bf(1)",
+            "Sn(1) N2*bf(1)",
+            "Sn(1) F1*bf(1)",
+            "Sn(1) F2*bf(1)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "Name": "Positive Interaction: Fam x Rep_2",
+          "ConditionList": [
+            "Sn(1) N1*bf(2)",
+            "Sn(1) N2*bf(2)",
+            "Sn(1) F1*bf(2)",
+            "Sn(1) F2*bf(2)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "Name": "Positive Interaction: Fam x Rep_3",
+          "ConditionList": [
+            "Sn(1) N1*bf(3)",
+            "Sn(1) N2*bf(3)",
+            "Sn(1) F1*bf(3)",
+            "Sn(1) F2*bf(3)"
+          ],
+          "Test": "t",
+          "Weights": [
+            1,
+            -1,
+            -1,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}
