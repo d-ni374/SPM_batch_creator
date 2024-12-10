@@ -1,0 +1,329 @@
+{
+    "BIDSModelVersion": "1.0.0-rc1",
+    "Name": "",
+    "Description": "empty template containing some default values",
+    "Input": {
+        "task": ""
+    },
+    "Nodes": [
+        {
+            "Level": "subject",
+            "Name": "",
+            "GroupBy": [],
+            "Transformations": {
+                "Transformer": "spm12-spec-v1",
+                "Instructions": [
+                    {
+                        "Name": "fmri_model_specification",
+                        "Input": {
+                            "BIDSflag": 1,
+                            "InputDirectory": "",
+                            "InputFilterRegexp": "^s8w.*(nii|img)$",
+                            "ImageType": "4d",
+                            "Participant_ID": [""],
+                            "OutputDirectory": "",
+                            "TimingParameters": {
+                                "UnitsForDesign": "secs",
+                                "InterscanInterval": 0,
+                                "MicrotimeResolution": 16,
+                                "MicrotimeOnset": 8
+                            },
+                            "Sessions": [
+                                {
+                                    "Session_id": "",
+                                    "Run_ids": [""],
+                                    "EventsRegexp": "",
+                                    "Conditions": [
+                                        {
+                                            "TrialType": "",
+                                            "TimeModulation": 0,
+                                            "ParametricModulations": [{"Name": "", "ColName": "", "Poly": 1}],
+                                            "OrthogonaliseModulations": 0
+                                        }
+                                    ],
+                                    "ConditionsRegexp": "",
+                                    "RegressorsRegexp": "",
+                                    "HighPassFilterSecs": 128
+                                }
+                            ],
+                            "FactorialDesign": [{"Name": "", "Levels": 0}],
+                            "BasisFunctions": {
+                                "Type": "Canonical HRF",
+                                "OptionsCanonicalHRF": {
+                                    "ModelTimeDerivatives": 0,
+                                    "ModelDispersionDerivatives": 0
+                                },
+                                "OptionsOtherBasisFunctions": {
+                                    "WindowLengthSecs": 0,
+                                    "NumberBasisFunctions": 0
+                                }
+                            },
+                            "ModelInteractionsVolterra": 0,
+                            "GlobalNormalisation": 0,
+                            "MaskingThreshold": 0,
+                            "ExplicitMask": "",
+                            "SerialCorrelations": "AR(1)"
+                        },
+                        "Script": "SPM_batch_creator(1)",
+                        "Output": "SPM.mat"
+                    }
+                ]
+            },
+            "Model": {
+                "Type": "glm",
+                "X": [
+                    ""
+                ],
+                "HRF": {
+                    "Model": "spm",
+                    "Variables": [
+                        ""
+                    ]
+                },
+                "Software": [
+                    {
+                        "SPM": {
+                            "WriteResiduals": 0,
+                            "Method": {
+                                "Type": "Classical",
+                                "OptionsBayesian1": {
+                                    "Comment": "not implemented yet; can be added if needed"
+                                }
+                            },
+                            "DeleteExistingContrasts": 1,
+                            "ReplicateOverSessions": "none"
+                        }
+                    }
+                ]
+            },
+            "Contrasts": [
+                {
+                    "Name": "",
+                    "ConditionList": ["", ""],
+                    "Weights": [],
+                    "Test": "t"
+                }
+            ],
+            "DummyContrasts": {
+                "Test": "t",
+                "Contrasts": [
+                    ""
+                ]
+            }
+        },
+        {
+            "Level": "dataset",
+            "Name": "",
+            "GroupBy": [],
+            "Transformations": {
+                "Transformer": "spm12-spec-v1",
+                "Instructions": [
+                    {
+                        "Name": "factorial_design_specification",
+                        "Input": {
+                            "MainProjectFolder": "",
+                            "OutputDirectory": "",
+                            "Design": {
+                                "Type": "",
+                                "InputOneSampleTTest": {
+                                    "Scans": {
+                                        "ContrastsToProcess": [""],
+                                        "InputFileType": "other",
+                                        "InputFilterRegexp": [""]
+                                    }
+                                },
+                                "InputTwoSampleTTest": {
+                                    "Scans": {
+                                        "ContrastsToProcess": [""],
+                                        "InputFileType": "other",
+                                        "SubjectsGroup1": "",
+                                        "InputFilterRegexpGroup1": [""],
+                                        "SubjectsGroup2": "",
+                                        "InputFilterRegexpGroup2": [""]
+                                    },
+                                    "Independence": 1,
+                                    "Variance": "unequal",
+                                    "GrandMeanScaling": 0,
+                                    "ANCOVA": 0
+                                },
+                                "InputPairedTTest": {
+                                    "Scans": [
+                                        {
+                                            "InputFileType1": "other",
+                                            "InputFilterRegexp1": [""],
+                                            "InputFileType2": "other",
+                                            "InputFilterRegexp2": [""],
+                                            "Subjects1": [""],
+                                            "Subjects2": [""],
+                                            "Contrasts1": [""],
+                                            "Contrasts2": [""]
+                                        }
+                                    ],
+                                    "GrandMeanScaling": 0,
+                                    "ANCOVA": 0
+                                },
+                                "InputMultipleRegression": {
+                                    "Scans": {
+                                        "ContrastsToProcess": [""],
+                                        "InputFileType": "other",
+                                        "InputFilterRegexp": [""]
+                                    },
+                                    "Covariates": [
+                                        {
+                                            "CovariatesFileRegexp": "^participants.*tsv$",
+                                            "Name": "",
+                                            "ColName": "",
+                                            "Centering": "Overall mean"
+                                        }
+                                    ],
+                                    "Intercept": 1
+                                },
+                                "InputOneWayANOVA": {
+                                    "Cells": [
+                                        {
+                                            "ContrastToProcess": "",
+                                            "Subject_ID": [""],
+                                            "InputFileTypeGroup": "other",
+                                            "InputFilterRegexpGroup": ""
+                                        }
+                                    ],
+                                    "Independence": 1,
+                                    "Variance": "unequal",
+                                    "GrandMeanScaling": 0,
+                                    "ANCOVA": 0
+                                },
+                                "InputOneWayANOVAWithinSubject": {
+                                    "Subjects": [
+                                        {
+                                            "ContrastsToProcess": [""],
+                                            "Subject_ID": [""],
+                                            "InputFileType": "other",
+                                            "InputFilterRegexp": [""]
+                                        }
+                                    ],
+                                    "Independence": 1,
+                                    "Variance": "unequal",
+                                    "GrandMeanScaling": 0,
+                                    "ANCOVA": 0
+                                },
+                                "InputFullFactorial": {
+                                    "Factors": [
+                                        {
+                                            "Name": "",
+                                            "Levels": 2,
+                                            "Independence": 1,
+                                            "Variance": "unequal",
+                                            "GrandMeanScaling": 0,
+                                            "ANCOVA": 0
+                                        }
+                                    ],
+                                    "Cells": [
+                                        {
+                                            "ContrastToProcess": "",
+                                            "Subject_ID": [""],
+                                            "InputFileType": "other",
+                                            "InputFilterRegexp": [""],
+                                            "Levels": []
+                                        }
+                                    ],
+                                    "GenerateContrasts": 1
+                                },
+                                "InputFlexibleFactorial": {
+                                    "Factors": [
+                                        {
+                                            "Name": "",
+                                            "Independence": 1,
+                                            "Variance": "unequal",
+                                            "GrandMeanScaling": 0,
+                                            "ANCOVA": 0
+                                        }
+                                    ],
+                                    "Subjects": [
+                                        {
+                                            "Subject_ID": [""],
+                                            "ContrastsToProcess": [""],
+                                            "InputFileType": "other",
+                                            "InputFilterRegexp": [""],
+                                            "Conditions": []
+                                        }
+                                    ],
+                                    "MainEffectsAndInteractions": [
+                                        {
+                                            "Type": "MainEffect",
+                                            "FactorNames": ["Factor1", "Factor2"]
+                                        },
+                                        {
+                                            "Type": "Interaction",
+                                            "FactorNames": ["Factor2", "Factor3"]
+                                        }
+                                    ]
+                                }
+                            },
+                            "Covariates": [
+                                {
+                                    "CovariatesFileRegexp": "^participants.*tsv$",
+                                    "Name": "",
+                                    "ColName": "",
+                                    "Interactions": "None",
+                                    "Centering": "Overall mean"
+                                }
+                            ],
+                            "Masking": {
+                                "ThresholdMasking": {
+                                    "Type": "None",
+                                    "ThresholdValue": 0
+                                },
+                                "ImplicitMask": 0,
+                                "ExplicitMask": ""
+                            },
+                            "GlobalCalculation": {
+                                "Type": "Omit",
+                                "UserSpecifiedValues": []
+                            },
+                            "GlobalNormalisation": {
+                                "OverallGrandMeanScaling": 0,
+                                "UserSpecifiedValue": 0,
+                                "Normalisation": "None"
+                            }
+                        },
+                        "Script": "SPM_batch_creator(2)",
+                        "Output": "SPM.mat"
+                    }
+                ]
+            },
+            "Model": {
+                "Type": "glm",
+                "X": [
+                    ""
+                ],
+                "Software": [
+                    {
+                        "SPM": {
+                            "WriteResiduals": 0,
+                            "Method": {
+                                "Type": "Classical"
+                            },
+                            "DeleteExistingContrasts": 1,
+                            "ReplicateOverSessions": "none"
+                        }
+                    }
+                ]
+            },
+            "Contrasts": [
+                {
+                    "Name": "",
+                    "ConditionList": ["", ""],
+                    "Weights": [],
+                    "Test": "t"
+                }
+            ]
+        }
+    ],
+    "Edges": [
+        {
+            "Source": "",
+            "Destination": "",
+            "Filter": {}
+        }
+    ]
+}
